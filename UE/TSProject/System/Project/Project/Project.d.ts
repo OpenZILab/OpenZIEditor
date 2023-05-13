@@ -1,0 +1,46 @@
+import { ProjectTemplate } from "./ProjectTemplate";
+export declare const CONTENT_NAME = "Content";
+export declare const SAVED_NAME = "Saved";
+export declare const SCRIPT_NAME = "Script";
+export declare const SCENES_NAME = "Scenes";
+export declare const DIGITALTWINS_NAME = "Content/DigitalTwins";
+export declare const PERFABOBJECTS_NAME = "Content/PerfabObjects";
+export declare const CONFIG_NAME = "Config";
+export declare const THUMBNAIL_NAME = "Thumbnail";
+export declare const USER_SETTINGS_NAME = "UserSettings";
+export declare const PROJECT_EXT = ".cproject";
+export declare const WILDCARD_PROJECT_EXT: string;
+export type ProjectOptions = {
+    Dir: string;
+    Name: string;
+    template: ProjectTemplate;
+    [options: string]: any;
+};
+export declare class Project {
+    private readonly projectFile;
+    private readonly projectDir;
+    private readonly contentDir;
+    private readonly savedDir;
+    private readonly scriptDir;
+    private readonly scenesDir;
+    private readonly digitalTwinsDir;
+    private readonly perfabObjectDir;
+    private readonly configDir;
+    private readonly thumbnailDir;
+    private readonly userSettingsDir;
+    private readonly projectName;
+    constructor(file: string);
+    private checkDirectory;
+    GetProjectFile(): string;
+    GetProjectName(): string;
+    GetProjectDir(): string;
+    GetContentDir(): string;
+    GetConfigDir(): string;
+    GetSavedDir(): string;
+    GetScenesDir(): string;
+    GetDigitalTwinsDir(): string;
+    GetPrefabObjectDir(): string;
+    GetScriptDir(): string;
+    GetThumbnailDir(): string;
+    GetUserSettingsDir(): string;
+}

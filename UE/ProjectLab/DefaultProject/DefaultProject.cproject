@@ -1,0 +1,17 @@
+{
+  "EngineVersion": "5.0",
+  "AssetLists": [
+  ],
+  "Category": "默认项目",
+  "DefaultLaunchMode": "Edit",
+  "Description": "虚幻编辑器下开发默认启动项目",
+  "EditorVersion": "1.0.0",
+  "Name": "",
+  "Previews": [
+  ],
+  "Resolution": "2560x1440",
+  "bCloudRender": false,
+  "bShowMouse": true,
+  "Theme": "Black",
+  "Language": "zh-CN"
+}

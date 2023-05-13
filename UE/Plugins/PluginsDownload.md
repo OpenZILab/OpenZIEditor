@@ -1,0 +1,1 @@
+because of our plugin size is too large ,you can find and download our plugins from our website openzi.com or cengzi.com.

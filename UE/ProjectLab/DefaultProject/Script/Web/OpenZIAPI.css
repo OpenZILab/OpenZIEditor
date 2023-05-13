@@ -1,0 +1,257 @@
+/**/
+/* Copyright by Cengzi Technology Co., Ltd. All Rights Reserved.  Office Website : www.openzi.com || www.cengzi.com 成都曾自科技版权所有 保留所有权利 */
+/* Created by xLin. */
+/* DateTime: 2023/4/23 09:00 */
+/**/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+html {
+    height: 100%;
+}
+
+.box {
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    background: rgba(0, 0, 0, .2);
+    font: 14px "微软雅黑", "宋体", "Arial Narrow", HELVETICA;
+    height: 100%;
+    display: flex;
+    color: #00A27A;
+    width: 30%;
+    resize: horizontal;
+}
+
+ul li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: -40px;
+    overflow: hidden;
+    /* pointer-events: none; */
+}
+
+.app {
+    overflow: hidden;
+    float: left;
+    /* background: rgba(0, 0, 0, .2); */
+    font: 14px "微软雅黑", "宋体", "Arial Narrow", HELVETICA;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    overflow-x: hidden;
+    width: 200px;
+    height: 100%;
+    padding-left: 15px;
+    min-width: 200px;
+}
+
+.left::-webkit-scrollbar {
+    /* background: rgba(0,0,0,.2); */
+    height: 0;
+    width: 0;
+    color: transparent;
+}
+
+.left_set {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.left_set_title {}
+
+.left_set_input {
+    width: 40px;
+    background: rgba(0, 0, 0, 0.2);
+    color: rgb(0, 0, 0);
+    border: 0px;
+    color: #00A27A;
+}
+
+.left_set_btn {
+    background: rgba(0, 0, 0, 0.2);
+    border-width: 0px;
+    display: inline;
+    color: #00A27A;
+    cursor: pointer;
+}
+
+
+.title_box {
+    height: 25px;
+    line-height: 30px;
+    overflow: hidden;
+    width: auto;
+    padding-right: 15px;
+    pointer-events: all;
+
+}
+
+.title_box:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.title_img {
+    transform: rotate(90deg);
+    transition: transform 0.2s linear;
+    float: right;
+    margin-top: 8px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100% - 200px);
+    width: 100%;
+}
+
+.right_top {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 8px;
+    background: rgba(0, 0, 0, 0);
+    display: flex;
+    width: 300px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    align-items: center;
+}
+
+.sendBtn {
+    cursor: pointer;
+    padding: 0px 10px;
+    white-space: nowrap;
+    background: rgba(0, 0, 0, .2);
+}
+
+.apiName {
+    padding: 2px 3px;
+    white-space: nowrap;
+    margin-left: 15px;
+    overflow: hidden;
+}
+
+.sendBtn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.textarea {
+    resize: vertical;
+    height: 70%;
+    line-height: 20px;
+    margin-right: 15px;
+    background: rgba(0, 0, 0, .2);
+    color: #00A27A;
+
+}
+
+.msg_title {
+    margin-top: 20px;
+}
+
+.msg_box {
+    padding: 0.6em;
+    border-radius: 0.6em;
+    height: calc(30%);
+    overflow: auto;
+    max-width: calc(100% - 40px);
+}
+
+.msg::-webkit-scrollbar {
+    /* background: rgba(0,0,0,.2); */
+    height: 0;
+    width: 0;
+    color: transparent;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #eee;
+}
+
+/*滚动条里面小方块*/
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*滚动条里面轨道*/
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.hide_btn {
+    position: fixed;
+    right: 0.8em;
+    bottom: 0.5em;
+    appearance: none;
+    font-size: xx-large;
+    text-shadow: 0px 0px 0.2em black;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.set_color_box {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.set_color_select {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    width: 40px;
+    padding: 0px 5px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.set_color_icon {
+    transform: rotate(90deg);
+    transition: transform 0.2s linear;
+    float: right;
+    margin-top: 2px;
+    pointer-events: none;
+}
+
+.select {
+    position: absolute;
+    top: 5px;
+    right: -1px;
+    width: 50px;
+    padding: 0;
+    border: 1px solid;
+    display: none;
+}
+
+.select li {
+    width: 50px;
+    margin-left: 0;
+    text-align: center;
+}
+
+.select li:hover {
+    background-color: rgba(0, 0, 0, .2);
+}

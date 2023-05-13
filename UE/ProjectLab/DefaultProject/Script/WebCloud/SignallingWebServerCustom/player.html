@@ -1,0 +1,86 @@
+<!-- Copyright Epic Games, Inc. All Rights Reserved. -->
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+
+	<link type="text/css" rel="stylesheet" href="./css/player.css">
+	<link type="text/css" rel="stylesheet" href="./css/OpenZIAPI.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>web</title>
+</head>
+
+<body onload="load()">
+	<div id="playerUI">
+		<div id="player" style="position: absolute; width: 100%; height: 100%; overflow: hidden; color: #CCC;">
+			<input type="checkbox" id="show-hide-api-panel" />
+		</div>
+
+		<div class="box">
+			<div class="app" id="app">
+				<div class="left">
+					<div class="left_set">
+						<span class="left_set_title">缩放比例：</span>
+						<input class="left_set_input" id="input" value="30" type="number">
+						<span>%</span>
+						<button class="left_set_btn" onclick="zoom()">设置</button>
+					</div>
+					<div>
+						<div>
+							<span>字体颜色：</span>
+							<select class="select" id="select" onchange="gradeChange()">
+								<option>绿色</option>
+								<option>白色</option>
+								<option>灰色</option>
+								<option>黑色</option>
+							</select>
+						</div>
+					</div>
+					<div class="list"></div>
+				</div>
+
+				<div class="right">
+					<div class="right_top">
+						<div class="sendBtn" onclick="run()">手动运行</div>
+						<div class="apiName" id="apiName"></div>
+					</div>
+					<textarea name="" spellcheck="false" id="textarea" class="textarea" wrap="off" cols="30"
+						rows="10"></textarea>
+					<h2 class="msg_title">消息接受：</h2>
+					<div class="msg_box">
+						<pre class="msg" id="info">
+
+						</pre>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<div class="hide_btn" onclick="hideBtn()">隐藏</div>
+	</div>
+
+
+</body>
+<script type="text/javascript" src="scripts/webRtcPlayer.js"></script>
+<script type="text/javascript" src="scripts/app.js"></script>
+
+<script src="./scripts/APIList.js"></script>
+<script src="./scripts/OpenZIAPI.js"></script>
+<script src="./scripts/ApiWebServerConfig.js"></script>
+<script src="./scripts/main.js"></script>
+<script type="text/javascript">
+	var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
+	if (isFirefox) {
+		window.navigator.mozGetUserMedia = function () { };
+		if (window.navigator.mediaDevices === undefined) {
+			navigator.mediaDevices = {};
+			navigator.mediaDevices.getSupportedConstraints = function () { return {}; };
+			navigator.mediaDevices.getUserMedia = function () { return {}; };
+		}
+	}
+</script>
+
+</html>

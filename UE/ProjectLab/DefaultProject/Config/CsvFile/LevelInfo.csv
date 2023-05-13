@@ -1,0 +1,4 @@
+﻿LevelName,LevelHight,LevelRoot,StartToLoad,LevelPage
+AudioLevel,0,0,否,http://localhost:18892/OpenZIAPI.html
+GeoLevel,0,0,否,http://localhost:18892/OpenZIAPI.html
+LightLevel,0,0,是,http://localhost:18892/OpenZIAPI.html

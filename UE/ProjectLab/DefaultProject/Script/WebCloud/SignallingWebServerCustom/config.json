@@ -1,0 +1,19 @@
+{
+	"UseFrontend": false,
+	"UseMatchmaker": false,
+	"UseHTTPS": false,
+	"UseAuthentication": false,
+	"LogToFile": true,
+	"LogVerbose": true,
+	"HomepageFile": "/player.html",
+	"AdditionalRoutes": {},
+	"EnableWebserver": true,
+	"MatchmakerAddress": "",
+	"MatchmakerPort": "9999",
+	"PublicIp": "127.0.0.1",
+	"HttpPort": 18888,
+	"HttpsPort": 443,
+	"StreamerPort": 18889,
+	"SFUPort": 8889,
+	"ApiURL": "ws://127.0.0.1:18892/"
+}

@@ -1,0 +1,78 @@
+<!-- -->
+<!-- Copyright by Cengzi Technology Co., Ltd. All Rights Reserved.  Office Website : www.openzi.com || www.cengzi.com 成都曾自科技版权所有 保留所有权利 -->
+<!-- Created by xLin. -->
+<!-- DateTime: 2023/4/23 09:00 -->
+<!-- -->
+
+<!doctype html>
+<html lang="zh-CN">
+
+
+<head>
+    <link rel="shortcut icon" href="#" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>web</title>
+    <link rel="stylesheet" href="OpenZIAPI.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="app" id="app">
+            <div class="left">
+                <div class="left_set">
+                    <span class="left_set_title">缩放比例：</span>
+                    <input class="left_set_input" id="input" value="30" type="number">
+                    <span>%</span>
+                    <button class="left_set_btn" onclick="zoom()">设置</button>
+                </div>
+                <div>
+                    <div class="set_color_box">
+                        <span>字体颜色：</span>
+                        <div class="set_color_select" onclick="clickSelectShow()">
+                            <div class="set_color_name">绿色</div>
+                            <img class="set_color_icon" src="./img/123.png">
+                            <ul class="select" id="select">
+                                <li onclick="gradeChange(0)">绿色</li>
+                                <li onclick="gradeChange(1)">灰色</li>
+                                <li onclick="gradeChange(2)">黑色</li>
+                                <li onclick="gradeChange(3)">白色</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="list"></div>
+            </div>
+
+            <div class="right">
+                <div class="right_top">
+                    <div class="sendBtn" onclick="run()">手动运行</div>
+                    <div class="apiName" id="apiName"></div>
+                </div>
+                <textarea name="" spellcheck="false" id="textarea" class="textarea" wrap="off" cols="30"
+                    rows="10"></textarea>
+                <h2 class="msg_title">消息接受：</h2>
+                <div class="msg_box">
+                    <pre class="msg" id="info">
+
+                    </pre>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="hide_btn" onclick="hideBtn()">隐藏</div>
+</body>
+
+<script src="./scripts/APIList.js"></script>
+<script src="./scripts/OpenZIAPI.js"></script>
+<script src="./scripts/main.js"></script>
+<script>
+
+
+</script>
+
+</html>

@@ -1,0 +1,25 @@
+{
+	"bEnableCloudRender": false,
+	"bShowMouse": true,
+	"bWebsocketServerMode": false,
+	"bUseOpenZICloudRenderProduct": false,
+	"CloudMode": "OpenZIAndUsePixelStreaming",
+	"bUseApiWebServer": true,
+	"ApiWebServerPort": 18892,
+	"bCloudPublicAccess": false,
+	"CloudStunServer": "***Press In Your Public IP***:18890",
+	"CloudTurnServer": "***Press In Your Public IP***:18891",
+	"CloudPublibIP": "***Press In Your Public IP***",
+	"CloudLocalIP": "10.0.0.13",
+	"WebConfig":
+	{
+		"PublicIp": "***Press In Your Public IP***",
+		"HttpPort": 18888,
+		"StreamerPort": 18889,
+		"ApiURL": "ws://127.0.0.1"
+	},
+	"PreLoadMaps": [
+	],
+	"MainScene": ""
+}
+

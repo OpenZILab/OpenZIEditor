@@ -1,0 +1,1443 @@
+0: : log file opened: turn_1579_2022-12-28.log
+0: : ERROR: -X : Wrong address format: -E
+0: : Listener address to use: 10.0.0.13
+0: : 
+RFC 3489/5389/5766/5780/6062/6156 STUN/TURN Server
+Version Coturn-4.5.2 'dan Eider'
+0: : 
+Max number of open files/sockets allowed for this process: 3200
+0: : 
+Due to the open files/sockets limitation,
+max supported number of TURN Sessions possible is: 1000 (approximately)
+0: : 
+
+==== Show him the instruments, Practical Frost: ====
+
+0: : TLS supported
+0: : DTLS supported
+0: : DTLS 1.2 supported
+0: : TURN/STUN ALPN supported
+0: : Third-party authorization (oAuth) supported
+0: : GCM (AEAD) supported
+0: : OpenSSL compile-time version: OpenSSL 1.1.1f  31 Mar 2020 (0x1010106f)
+0: : 
+0: : SQLite is not supported
+0: : Redis is not supported
+0: : PostgreSQL is not supported
+0: : MySQL is not supported
+0: : MongoDB is not supported
+0: : 
+0: : Default Net Engine version: 2 (UDP thread per network endpoint)
+
+=====================================================
+
+0: : Domain name: 
+0: : Default realm: PixelStreaming
+0: : ERROR: 
+CONFIGURATION ALERT: Unknown argument: 10.0.0.13
+0: : Relay address to use: 10.0.0.13
+0: : pid file created: C:\coturn.pid
+0: : IO method (main listener thread): poll
+0: : IPv4: On this platform, I am using alternative behavior of TTL according to RFC 5766.
+0: : IPv6: On this platform, I am using alternative behavior of TTL (HOPLIMIT) according to RFC 6156.
+0: : IPv4: On this platform, I am using alternative behavior of TOS according to RFC 5766.
+0: : WARNING: I cannot support STUN CHANGE_REQUEST functionality because only one IP address is provided
+0: : Wait for relay ports initialization...
+0: :   relay 10.0.0.13 initialization...
+0: :   relay 10.0.0.13 initialization done
+0: : Relay ports initialization done
+0: : IO method (general relay thread): poll
+0: : turn server id=0 created
+0: : IO method (general relay thread): poll
+0: : turn server id=1 created
+0: : IO method (general relay thread): poll
+0: : turn server id=2 created
+0: : IO method (general relay thread): poll
+0: : turn server id=3 created
+0: : IO method (general relay thread): poll
+0: : turn server id=4 created
+0: : IO method (general relay thread): poll
+0: : turn server id=5 created
+0: : IO method (general relay thread): poll
+0: : turn server id=6 created
+0: : IO method (general relay thread): poll
+0: : turn server id=7 created
+0: : IO method (general relay thread): poll
+0: : turn server id=8 created
+0: : IO method (general relay thread): poll
+0: : turn server id=9 created
+0: : IO method (general relay thread): poll
+0: : turn server id=10 created
+0: : IO method (general relay thread): poll
+0: : turn server id=11 created
+0: : IO method (general relay thread): poll
+0: : turn server id=12 created
+0: : IO method (general relay thread): poll
+0: : turn server id=13 created
+0: : IO method (general relay thread): poll
+0: : turn server id=14 created
+0: : IO method (general relay thread): poll
+0: : turn server id=15 created
+0: : IO method (general relay thread): poll
+0: : turn server id=16 created
+0: : IO method (general relay thread): poll
+0: : turn server id=17 created
+0: : IO method (general relay thread): poll
+0: : turn server id=18 created
+0: : IO method (general relay thread): poll
+0: : turn server id=19 created
+0: : IO method (general relay thread): poll
+0: : turn server id=20 created
+0: : IO method (general relay thread): poll
+0: : turn server id=21 created
+0: : IO method (general relay thread): poll
+0: : turn server id=22 created
+0: : IO method (general relay thread): poll
+0: : turn server id=23 created
+0: : IO method (general relay thread): poll
+0: : turn server id=24 created
+0: : IO method (general relay thread): poll
+0: : turn server id=25 created
+0: : IO method (general relay thread): poll
+0: : turn server id=26 created
+0: : IO method (general relay thread): poll
+0: : turn server id=27 created
+0: : IO method (general relay thread): poll
+0: : turn server id=28 created
+0: : IO method (general relay thread): poll
+0: : turn server id=29 created
+0: : IO method (general relay thread): poll
+0: : turn server id=30 created
+0: : IO method (udp listener/relay thread): poll
+0: : IO method (general relay thread): poll
+0: : turn server id=31 created
+0: : turn server id=128 created
+0: : IPv4. UDP listener opened on: 10.0.0.13:19311
+0: : IPv4. TCP listener opened on : 10.0.0.13:19311
+0: : Total UDP servers: 1
+0: : Total General servers: 32
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (admin thread): poll
+121: : session 128000000000000001: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+122: : session 128000000000000001: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+122: : IPv4. Local relay addr: 10.0.0.13:62833
+122: : session 128000000000000001: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+122: : session 128000000000000001: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+122: : session 128000000000000001: peer 10.0.0.13 lifetime updated: 300
+122: : session 128000000000000001: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+122: : session 128000000000000001: peer 10.0.0.13 lifetime updated: 600
+122: : session 128000000000000001: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+131: : session 128000000000000001: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=152, rb=9981, sp=1901, sb=1865545
+131: : session 128000000000000001: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1896, rb=1857345, sp=147, sb=8882
+135: : session 128000000000000002: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+135: : session 128000000000000002: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+135: : IPv4. Local relay addr: 10.0.0.13:51811
+135: : session 128000000000000002: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+135: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+135: : session 128000000000000002: peer 10.0.0.13 lifetime updated: 300
+135: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+135: : session 128000000000000002: peer 10.0.0.13 lifetime updated: 600
+135: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+145: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+146: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=280, rb=16876, sp=1774, sb=1844973
+146: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1768, rb=1837193, sp=274, sb=15217
+155: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+155: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=404, rb=24945, sp=1645, sb=1536338
+155: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1644, rb=1529670, sp=403, sb=23313
+156: : session 128000000000000003: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+156: : session 128000000000000003: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+156: : IPv4. Local relay addr: 10.0.0.13:59101
+156: : session 128000000000000003: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+156: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+156: : session 128000000000000003: peer 10.0.0.13 lifetime updated: 300
+156: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+156: : session 128000000000000003: peer 10.0.0.13 lifetime updated: 600
+156: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+158: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=130, rb=11759, sp=1923, sb=1908895
+158: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1918, rb=1900607, sp=125, sb=10748
+159: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=128, rb=8853, sp=1920, sb=2100076
+159: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1920, rb=2092396, sp=128, sb=8341
+160: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=152, rb=12558, sp=1896, sb=2123029
+160: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1896, rb=2115445, sp=152, sb=11950
+162: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=69, rb=5390, sp=1979, sb=2268217
+162: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1979, rb=2260301, sp=69, sb=5114
+163: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=118, rb=9381, sp=1930, sb=2146160
+163: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1930, rb=2138440, sp=118, sb=8909
+164: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=78, rb=6066, sp=1970, sb=2193175
+164: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1970, rb=2185295, sp=78, sb=5754
+165: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+165: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=159, rb=12808, sp=1889, sb=2106447
+165: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1889, rb=2098891, sp=159, sb=12172
+166: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+166: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=95, rb=7359, sp=1954, sb=2233541
+166: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1953, rb=2225637, sp=94, sb=6963
+167: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=146, rb=11733, sp=1903, sb=2124104
+167: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1902, rb=2116404, sp=145, sb=11133
+168: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=43, rb=3862, sp=2005, sb=2305341
+168: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2005, rb=2297321, sp=43, sb=3690
+172: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=152, rb=10867, sp=1896, sb=2047300
+172: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1896, rb=2039716, sp=152, sb=10259
+172: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=29, rb=1666, sp=2019, sb=2240182
+172: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2019, rb=2232106, sp=29, sb=1550
+173: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=133, rb=10950, sp=1915, sb=2178315
+173: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1915, rb=2170655, sp=133, sb=10418
+175: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+175: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=142, rb=11819, sp=1906, sb=2141538
+175: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1906, rb=2133914, sp=142, sb=11251
+175: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=36, rb=2718, sp=2013, sb=2298589
+175: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2012, rb=2290449, sp=35, sb=2558
+175: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+176: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+176: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+177: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+177: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=174, rb=13710, sp=1875, sb=2068949
+177: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1874, rb=2061361, sp=173, sb=12998
+178: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=219, rb=17649, sp=1829, sb=2018637
+178: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1829, rb=2011321, sp=219, sb=16773
+179: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+180: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=137, rb=10864, sp=1911, sb=2127433
+180: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1911, rb=2119789, sp=137, sb=10316
+183: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+184: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=158, rb=11635, sp=1890, sb=2054262
+184: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1890, rb=2046702, sp=158, sb=11003
+186: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+187: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=200, rb=15344, sp=1849, sb=2019710
+187: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1848, rb=2012226, sp=199, sb=14528
+187: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=142, rb=10008, sp=1911, sb=1924856
+187: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1906, rb=1916772, sp=137, sb=9360
+191: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+192: : session 128000000000000002: refreshed, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=0
+192: : session 128000000000000002: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet REFRESH processed, success
+193: : session 128000000000000002: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=96, rb=5603, sp=1334, sb=1415251
+193: : session 128000000000000002: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1332, rb=1409743, sp=94, sb=5091
+193: : session 128000000000000002: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 171.218.202.28:56600, reason: allocation timeout
+193: : session 128000000000000002: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+193: : session 128000000000000002: peer 10.0.0.13 deleted
+196: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+198: : session 128000000000000004: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+198: : session 128000000000000004: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+198: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=209, rb=11040, sp=1840, sb=1788612
+198: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1839, rb=1781164, sp=208, sb=10188
+198: : IPv4. Local relay addr: 10.0.0.13:56546
+198: : session 128000000000000004: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+198: : session 128000000000000004: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+198: : session 128000000000000004: peer 10.0.0.13 lifetime updated: 300
+198: : session 128000000000000004: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+198: : session 128000000000000004: peer 10.0.0.13 lifetime updated: 600
+198: : session 128000000000000004: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+202: : session 128000000000000005: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+203: : session 128000000000000005: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+203: : IPv4. Local relay addr: 10.0.0.13:54829
+203: : session 128000000000000005: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+203: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+203: : session 128000000000000005: peer 10.0.0.13 lifetime updated: 300
+203: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+203: : session 128000000000000005: peer 10.0.0.13 lifetime updated: 600
+203: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+206: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+208: : session 128000000000000004: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+210: : session 128000000000000004: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=273, rb=15673, sp=1781, sb=1590832
+210: : session 128000000000000004: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1775, rb=1583024, sp=267, sb=14042
+211: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=233, rb=12128, sp=1816, sb=1668116
+211: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1815, rb=1660764, sp=232, sb=11180
+213: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+216: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=276, rb=16618, sp=1778, sb=1549230
+216: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1772, rb=1541366, sp=270, sb=14943
+216: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+218: : session 128000000000000004: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+223: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+223: : session 128000000000000004: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=267, rb=13734, sp=1782, sb=1677953
+223: : session 128000000000000004: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1781, rb=1670737, sp=266, sb=12650
+223: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=262, rb=14946, sp=1787, sb=1692646
+223: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1786, rb=1685410, sp=261, sb=13882
+224: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=148, rb=8278, sp=1901, sb=1986794
+224: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1900, rb=1979102, sp=147, sb=7670
+225: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=253, rb=20180, sp=1795, sb=1945325
+225: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1795, rb=1938145, sp=253, sb=19168
+226: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=36, rb=3524, sp=2012, sb=2314562
+226: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2012, rb=2306514, sp=36, sb=3380
+226: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+226: : session 128000000000000004: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=81, rb=5314, sp=1967, sb=2260825
+226: : session 128000000000000004: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1967, rb=2252957, sp=81, sb=4990
+227: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=234, rb=18589, sp=1815, sb=1979654
+227: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1814, rb=1972306, sp=233, sb=17637
+228: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=39, rb=3618, sp=2009, sb=2303980
+228: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2009, rb=2295944, sp=39, sb=3462
+229: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=184, rb=14333, sp=1864, sb=2059454
+229: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1864, rb=2051998, sp=184, sb=13597
+230: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=26, rb=3220, sp=2022, sb=2356438
+230: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2022, rb=2348350, sp=26, sb=3116
+230: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=81, rb=7362, sp=1967, sb=2241299
+230: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1967, rb=2233431, sp=81, sb=7038
+233: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+234: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4926, sp=1981, sb=2196392
+234: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2188380, sp=67, sb=4638
+235: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=136, rb=9550, sp=1912, sb=2032491
+235: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1912, rb=2024843, sp=136, sb=9006
+236: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+238: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=90, rb=5875, sp=1958, sb=2104352
+238: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1958, rb=2096520, sp=90, sb=5515
+239: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=229, rb=17581, sp=1820, sb=1929668
+239: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1819, rb=1922300, sp=228, sb=16649
+242: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=219, rb=16531, sp=1829, sb=1981597
+242: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1829, rb=1974281, sp=219, sb=15655
+242: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4974, sp=1980, sb=2209361
+242: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2201441, sp=68, sb=4702
+243: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+246: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+253: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+256: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+258: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=294, rb=14709, sp=1756, sb=1486418
+258: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1754, rb=1479218, sp=292, sb=13501
+259: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=292, rb=14478, sp=1758, sb=1493103
+259: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1756, rb=1485895, sp=290, sb=13278
+263: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+266: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+273: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+275: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=300, rb=14880, sp=1749, sb=1510166
+275: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1748, rb=1503082, sp=299, sb=13664
+276: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=304, rb=15158, sp=1746, sb=1498598
+276: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1744, rb=1491438, sp=302, sb=13910
+276: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+278: : session 128000000000000006: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+278: : session 128000000000000006: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+278: : IPv4. Local relay addr: 10.0.0.13:56263
+278: : session 128000000000000006: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+278: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+278: : session 128000000000000006: peer 10.0.0.13 lifetime updated: 300
+278: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+278: : session 128000000000000006: peer 10.0.0.13 lifetime updated: 600
+278: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+283: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+288: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+290: : session 128000000000000006: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=281, rb=16136, sp=1773, sb=1504593
+290: : session 128000000000000006: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1767, rb=1496817, sp=275, sb=14505
+292: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=296, rb=14759, sp=1753, sb=1545090
+292: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1752, rb=1537990, sp=295, sb=13559
+292: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=295, rb=14727, sp=1754, sb=1559056
+292: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1753, rb=1551952, sp=294, sb=13531
+293: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+298: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+303: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+304: : session 128000000000000006: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=315, rb=15570, sp=1734, sb=1436268
+304: : session 128000000000000006: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1733, rb=1429244, sp=314, sb=14294
+305: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=243, rb=12654, sp=1805, sb=1535958
+305: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1805, rb=1528738, sp=243, sb=11682
+307: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=258, rb=13084, sp=1792, sb=1510365
+307: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1790, rb=1503021, sp=256, sb=12020
+308: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+313: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+318: : session 128000000000000006: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+320: : session 128000000000000006: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=338, rb=16572, sp=1712, sb=1510914
+320: : session 128000000000000006: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1710, rb=1503890, sp=336, sb=15188
+322: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=283, rb=14380, sp=1765, sb=1523120
+322: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1765, rb=1516060, sp=283, sb=13248
+323: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=290, rb=14509, sp=1759, sb=1512629
+323: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1758, rb=1505505, sp=289, sb=13333
+323: : session 128000000000000005: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+339: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=306, rb=15209, sp=1742, sb=1513664
+339: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1742, rb=1506696, sp=306, sb=13985
+340: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=305, rb=15153, sp=1744, sb=1522903
+340: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1743, rb=1515839, sp=304, sb=13917
+347: : session 128000000000000007: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+347: : session 128000000000000007: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+347: : IPv4. Local relay addr: 10.0.0.13:58990
+347: : session 128000000000000007: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+347: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+347: : session 128000000000000007: peer 10.0.0.13 lifetime updated: 300
+347: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+347: : session 128000000000000007: peer 10.0.0.13 lifetime updated: 600
+347: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+354: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=291, rb=15298, sp=1757, sb=1590805
+354: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1757, rb=1583777, sp=291, sb=14134
+355: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=13017, sp=1792, sb=1662842
+355: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1655674, sp=256, sb=11993
+355: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=201, rb=12724, sp=1852, sb=1799124
+355: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1847, rb=1791120, sp=196, sb=11429
+357: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+359: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=111, rb=7903, sp=1937, sb=2120257
+359: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1937, rb=2112509, sp=111, sb=7459
+360: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=90, rb=5872, sp=1958, sb=2136252
+360: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1958, rb=2128420, sp=90, sb=5512
+362: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=154, rb=8522, sp=1895, sb=1974998
+362: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1894, rb=1967330, sp=153, sb=7890
+367: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+372: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=244, rb=12534, sp=1804, sb=1601961
+372: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1804, rb=1594745, sp=244, sb=11558
+373: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=251, rb=13108, sp=1797, sb=1581137
+373: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1797, rb=1573949, sp=251, sb=12104
+375: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=284, rb=13802, sp=1765, sb=1594183
+375: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1764, rb=1587035, sp=283, sb=12650
+377: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+386: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=246, rb=12770, sp=1802, sb=1712003
+386: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1802, rb=1704795, sp=246, sb=11786
+387: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+387: : session 128000000000000008: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+387: : session 128000000000000008: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+387: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=254, rb=12949, sp=1794, sb=1675204
+387: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1794, rb=1668028, sp=254, sb=11933
+388: : IPv4. Local relay addr: 10.0.0.13:56330
+388: : session 128000000000000008: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+388: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+388: : session 128000000000000008: peer 10.0.0.13 lifetime updated: 300
+388: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+388: : session 128000000000000008: peer 10.0.0.13 lifetime updated: 600
+388: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+389: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=291, rb=14299, sp=1759, sb=1645962
+389: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1757, rb=1638750, sp=289, sb=13103
+396: : session 128000000000000003: peer 10.0.0.13 lifetime updated: 300
+396: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+396: : session 128000000000000003: peer 10.0.0.13 lifetime updated: 600
+396: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+397: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+397: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+400: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=284, rb=15727, sp=1770, sb=1538584
+400: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1764, rb=1530820, sp=278, sb=14052
+400: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=248, rb=12791, sp=1802, sb=1605271
+400: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1800, rb=1597911, sp=246, sb=11559
+402: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=264, rb=13359, sp=1784, sb=1589587
+402: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1784, rb=1582451, sp=264, sb=12303
+405: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=319, rb=15488, sp=1730, sb=1518921
+405: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1729, rb=1511913, sp=318, sb=14196
+407: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+408: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+417: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+418: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+424: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=586, rb=40983, sp=1462, sb=1315578
+424: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1462, rb=1309730, sp=586, sb=38639
+427: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+428: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+428: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=452, rb=22206, sp=1599, sb=1591399
+428: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1596, rb=1584739, sp=449, sb=20350
+432: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=283, rb=14798, sp=1765, sb=1780511
+432: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1765, rb=1773451, sp=283, sb=13666
+434: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=292, rb=15001, sp=1759, sb=1802362
+434: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1756, rb=1795062, sp=289, sb=13785
+437: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+438: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+441: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=338, rb=20396, sp=1710, sb=1608779
+441: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1710, rb=1601939, sp=338, sb=19044
+443: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=281, rb=13988, sp=1768, sb=1787476
+443: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1767, rb=1780316, sp=280, sb=12848
+447: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=199, rb=10631, sp=1850, sb=1971072
+447: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1849, rb=1963584, sp=198, sb=9819
+447: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+448: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+449: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=437, rb=32134, sp=1611, sb=1657690
+449: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1611, rb=1651246, sp=437, sb=30386
+451: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=157, rb=8717, sp=1892, sb=2177249
+451: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1891, rb=2169593, sp=156, sb=8073
+454: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=417, rb=30933, sp=1631, sb=1696055
+454: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1631, rb=1689531, sp=417, sb=29265
+454: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=107, rb=6620, sp=1942, sb=2237564
+454: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1941, rb=2229708, sp=106, sb=6176
+457: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+457: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=114, rb=6792, sp=1934, sb=2205360
+457: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1934, rb=2197624, sp=114, sb=6336
+458: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=293, rb=21100, sp=1755, sb=1875597
+458: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1755, rb=1868577, sp=293, sb=19928
+458: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+458: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=102, rb=6373, sp=1947, sb=2219744
+458: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1946, rb=2211868, sp=101, sb=5949
+461: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=83, rb=5498, sp=1966, sb=2261914
+461: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1965, rb=2253962, sp=82, sb=5150
+462: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=170, rb=12167, sp=1878, sb=2072210
+462: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1878, rb=2064698, sp=170, sb=11487
+465: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=140, rb=7932, sp=1908, sb=2046891
+465: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1908, rb=2039259, sp=140, sb=7372
+467: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+468: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+471: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=219, rb=11347, sp=1830, sb=1835441
+471: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1829, rb=1828033, sp=218, sb=10455
+471: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=201, rb=12095, sp=1847, sb=1876630
+471: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1847, rb=1869242, sp=201, sb=11291
+472: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=158, rb=8867, sp=1891, sb=2032150
+472: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1890, rb=2024498, sp=157, sb=8219
+474: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=227, rb=17459, sp=1821, sb=1954847
+474: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1821, rb=1947563, sp=227, sb=16551
+474: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=69, rb=4924, sp=1979, sb=2233856
+474: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1979, rb=2225940, sp=69, sb=4648
+475: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=62, rb=4670, sp=1986, sb=2251356
+475: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1986, rb=2243412, sp=62, sb=4422
+476: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=268, rb=20867, sp=1780, sb=1904849
+476: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1780, rb=1897729, sp=268, sb=19795
+477: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=53, rb=4250, sp=1995, sb=2280566
+477: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1995, rb=2272586, sp=53, sb=4038
+477: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+478: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=56, rb=4398, sp=1993, sb=2276372
+478: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1992, rb=2268312, sp=55, sb=4158
+478: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+479: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=225, rb=17018, sp=1823, sb=1976767
+479: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1823, rb=1969475, sp=225, sb=16118
+480: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=65, rb=4708, sp=1984, sb=2250752
+480: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1983, rb=2242728, sp=64, sb=4432
+481: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=59, rb=4478, sp=1989, sb=2262049
+481: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1989, rb=2254093, sp=59, sb=4242
+481: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=277, rb=21528, sp=1771, sb=1889679
+481: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1771, rb=1882595, sp=277, sb=20420
+482: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=47, rb=3994, sp=2001, sb=2304899
+482: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2001, rb=2296895, sp=47, sb=3806
+484: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=314, rb=24167, sp=1734, sb=1816161
+484: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1734, rb=1809225, sp=314, sb=22911
+484: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=66, rb=4776, sp=1982, sb=2241320
+484: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1982, rb=2233392, sp=66, sb=4512
+486: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=84, rb=5629, sp=1964, sb=2177155
+486: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1964, rb=2169299, sp=84, sb=5293
+487: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=258, rb=19043, sp=1790, sb=1900050
+487: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1790, rb=1892890, sp=258, sb=18011
+487: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+487: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=5362, sp=1970, sb=2208942
+487: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2200974, sp=78, sb=5030
+488: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+489: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=80, rb=5444, sp=1969, sb=2223295
+489: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1968, rb=2215331, sp=79, sb=5108
+489: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=279, rb=20957, sp=1769, sb=1879568
+489: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1769, rb=1872492, sp=279, sb=19841
+490: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=67, rb=4852, sp=1981, sb=2240942
+490: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1981, rb=2233018, sp=67, sb=4584
+492: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=222, rb=16448, sp=1826, sb=1962372
+492: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1826, rb=1955068, sp=222, sb=15560
+493: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=66, rb=4772, sp=1982, sb=2221225
+493: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1982, rb=2213297, sp=66, sb=4508
+494: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=5370, sp=1969, sb=2190647
+494: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2182771, sp=79, sb=5054
+497: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=217, rb=15413, sp=1831, sb=1938711
+497: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1831, rb=1931387, sp=217, sb=14545
+497: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+497: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=98, rb=6232, sp=1950, sb=2155430
+497: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1950, rb=2147630, sp=98, sb=5840
+498: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=83, rb=5535, sp=1966, sb=2207966
+498: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1965, rb=2200014, sp=82, sb=5187
+498: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+499: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=213, rb=16377, sp=1835, sb=1990894
+499: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1835, rb=1983554, sp=213, sb=15525
+500: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=62, rb=4637, sp=1987, sb=2236805
+500: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1986, rb=2228769, sp=61, sb=4373
+501: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4868, sp=1980, sb=2212953
+501: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2205033, sp=68, sb=4596
+501: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=252, rb=19271, sp=1796, sb=1927043
+501: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1796, rb=1919859, sp=252, sb=18263
+502: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=47, rb=3946, sp=2001, sb=2292455
+502: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2001, rb=2284451, sp=47, sb=3758
+503: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=41, rb=3782, sp=2007, sb=2314106
+503: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2007, rb=2306078, sp=41, sb=3618
+503: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=247, rb=19822, sp=1801, sb=1952280
+503: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1801, rb=1945076, sp=247, sb=18834
+505: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=56, rb=4468, sp=1992, sb=2265046
+505: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1992, rb=2257078, sp=56, sb=4244
+507: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+508: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+509: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=208, rb=14070, sp=1840, sb=1948132
+509: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1840, rb=1940772, sp=208, sb=13238
+509: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=135, rb=7655, sp=1914, sb=2069377
+509: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1913, rb=2061633, sp=134, sb=7099
+517: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=12761, sp=1793, sb=1725498
+517: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1718238, sp=255, sb=11721
+517: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+521: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=221, rb=11674, sp=1827, sb=1683083
+521: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1827, rb=1675775, sp=221, sb=10790
+521: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=262, rb=13158, sp=1787, sb=1642385
+521: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1786, rb=1635149, sp=261, sb=12094
+527: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+529: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=313, rb=16892, sp=1735, sb=1494735
+529: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1735, rb=1487795, sp=313, sb=15640
+531: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=219, rb=12727, sp=1829, sb=1745703
+531: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1829, rb=1738387, sp=219, sb=11851
+531: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=218, rb=11258, sp=1831, sb=1767559
+531: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1830, rb=1760147, sp=217, sb=10370
+533: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=85, rb=5706, sp=1963, sb=2189305
+533: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1963, rb=2181453, sp=85, sb=5366
+534: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=234, rb=17848, sp=1814, sb=1954124
+534: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1814, rb=1946868, sp=234, sb=16912
+534: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=64, rb=4773, sp=1984, sb=2257584
+534: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1984, rb=2249648, sp=64, sb=4517
+537: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=77, rb=5390, sp=1971, sb=2213444
+537: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1971, rb=2205560, sp=77, sb=5082
+537: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+537: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=274, rb=20094, sp=1774, sb=1870270
+537: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1774, rb=1863174, sp=274, sb=18998
+538: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=90, rb=5851, sp=1959, sb=2171115
+538: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1958, rb=2163191, sp=89, sb=5475
+540: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=254, rb=19146, sp=1794, sb=1909349
+540: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1794, rb=1902173, sp=254, sb=18130
+540: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4816, sp=1980, sb=2218734
+540: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2210814, sp=68, sb=4544
+541: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=62, rb=4588, sp=1986, sb=2233442
+541: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1986, rb=2225498, sp=62, sb=4340
+543: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=276, rb=20473, sp=1772, sb=1861775
+543: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1772, rb=1854687, sp=276, sb=19369
+544: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=81, rb=5510, sp=1967, sb=2196188
+544: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1967, rb=2188320, sp=81, sb=5186
+545: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=80, rb=5382, sp=1968, sb=2208439
+545: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1968, rb=2200567, sp=80, sb=5062
+546: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=339, rb=25788, sp=1709, sb=1768480
+546: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1709, rb=1761644, sp=339, sb=24432
+547: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+547: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=71, rb=5045, sp=1977, sb=2219968
+547: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1977, rb=2212060, sp=71, sb=4761
+549: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=82, rb=5432, sp=1967, sb=2196958
+549: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1966, rb=2189002, sp=81, sb=5088
+549: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=219, rb=16359, sp=1829, sb=1964490
+549: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1829, rb=1957174, sp=219, sb=15483
+550: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=65, rb=4714, sp=1983, sb=2222603
+550: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1983, rb=2214671, sp=65, sb=4454
+551: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=19961, sp=1792, sb=1922244
+551: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1915076, sp=256, sb=18937
+551: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=51, rb=4138, sp=1997, sb=2278925
+551: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1997, rb=2270937, sp=51, sb=3934
+553: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=50, rb=4160, sp=1998, sb=2291347
+553: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1998, rb=2283355, sp=50, sb=3960
+553: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=287, rb=22470, sp=1761, sb=1883827
+553: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1761, rb=1876783, sp=287, sb=21322
+554: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=55, rb=4358, sp=1993, sb=2282293
+554: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1993, rb=2274321, sp=55, sb=4138
+555: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=298, rb=23339, sp=1750, sb=1852990
+555: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1750, rb=1845990, sp=298, sb=22147
+555: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=52, rb=4180, sp=1996, sb=2284989
+555: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1996, rb=2277005, sp=52, sb=3972
+557: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=59, rb=4510, sp=1989, sb=2252642
+557: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1989, rb=2244686, sp=59, sb=4274
+557: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+558: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=19083, sp=1792, sb=1901247
+558: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1894079, sp=256, sb=18059
+559: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=76, rb=5308, sp=1972, sb=2202634
+559: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1972, rb=2194746, sp=76, sb=5004
+560: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=82, rb=5470, sp=1967, sb=2193312
+560: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1966, rb=2185356, sp=81, sb=5126
+561: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=261, rb=19235, sp=1787, sb=1891575
+561: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1787, rb=1884427, sp=261, sb=18191
+562: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=67, rb=4810, sp=1981, sb=2230520
+562: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1981, rb=2222596, sp=67, sb=4542
+564: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4844, sp=1980, sb=2238196
+564: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2230276, sp=68, sb=4572
+564: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=19453, sp=1792, sb=1923031
+564: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1915863, sp=256, sb=18429
+566: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=63, rb=4686, sp=1985, sb=2223092
+566: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1985, rb=2215152, sp=63, sb=4434
+567: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+567: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=18885, sp=1792, sb=1874426
+567: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1867258, sp=256, sb=17861
+567: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=75, rb=5209, sp=1974, sb=2188164
+567: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1973, rb=2180180, sp=74, sb=4893
+569: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=5016, sp=1980, sb=2225884
+569: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2217964, sp=68, sb=4744
+570: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=266, rb=20326, sp=1782, sb=1893148
+570: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1782, rb=1886020, sp=266, sb=19262
+570: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=70, rb=5003, sp=1978, sb=2229981
+570: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1978, rb=2222069, sp=70, sb=4723
+575: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=126, rb=7375, sp=1922, sb=2059629
+575: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1922, rb=2051941, sp=126, sb=6871
+577: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+583: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=460, rb=33529, sp=1588, sb=1512715
+583: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1588, rb=1506363, sp=460, sb=31689
+587: : session 128000000000000007: peer 10.0.0.13 lifetime updated: 300
+587: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+587: : session 128000000000000007: peer 10.0.0.13 lifetime updated: 600
+587: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+587: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+597: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+599: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=220, rb=12267, sp=1833, sb=1956858
+599: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1828, rb=1949110, sp=215, sb=11099
+607: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+609: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=440, rb=21592, sp=1608, sb=1780887
+609: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1608, rb=1774455, sp=440, sb=19832
+612: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=588, rb=43012, sp=1460, sb=1379030
+612: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1460, rb=1373190, sp=588, sb=40660
+617: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+627: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+628: : session 128000000000000008: peer 10.0.0.13 lifetime updated: 300
+628: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+628: : session 128000000000000008: peer 10.0.0.13 lifetime updated: 600
+628: : session 128000000000000008: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+636: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=298, rb=15634, sp=1753, sb=1749301
+636: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1750, rb=1742025, sp=295, sb=14394
+636: : session 128000000000000003: peer 10.0.0.13 lifetime updated: 600
+636: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+636: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=555, rb=38243, sp=1494, sb=1284781
+636: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1493, rb=1278729, sp=554, sb=35899
+637: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+638: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=470, rb=22862, sp=1580, sb=1511763
+638: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1578, rb=1505291, sp=468, sb=20742
+647: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+651: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=317, rb=18865, sp=1731, sb=1627305
+651: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1731, rb=1620381, sp=317, sb=17597
+651: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=293, rb=14565, sp=1757, sb=1681784
+651: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1755, rb=1674580, sp=291, sb=13361
+653: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=303, rb=14937, sp=1745, sb=1667473
+653: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1745, rb=1660493, sp=303, sb=13725
+657: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+658: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=568, rb=40691, sp=1480, sb=1371709
+658: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1480, rb=1365789, sp=568, sb=38419
+661: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=162, rb=9001, sp=1887, sb=2083595
+661: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1886, rb=2075959, sp=161, sb=8337
+661: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=168, rb=9132, sp=1880, sb=2134971
+661: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1880, rb=2127451, sp=168, sb=8460
+665: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=345, rb=23652, sp=1703, sb=1762431
+665: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1703, rb=1755619, sp=345, sb=22272
+667: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+668: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=137, rb=7832, sp=1912, sb=2135316
+668: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1911, rb=2127580, sp=136, sb=7268
+668: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=705, rb=54877, sp=1343, sb=1193993
+668: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1343, rb=1188621, sp=705, sb=52057
+668: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=144, rb=8108, sp=1904, sb=2127399
+668: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1904, rb=2119783, sp=144, sb=7532
+670: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=605, rb=47068, sp=1443, sb=1346668
+670: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1443, rb=1340896, sp=605, sb=44648
+672: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=89, rb=5822, sp=1959, sb=2231142
+672: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1959, rb=2223306, sp=89, sb=5466
+672: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=91, rb=5883, sp=1957, sb=2232455
+672: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1957, rb=2224627, sp=91, sb=5519
+673: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=555, rb=43426, sp=1493, sb=1426368
+673: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1493, rb=1420396, sp=555, sb=41206
+676: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=83, rb=5490, sp=1965, sb=2197778
+676: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1965, rb=2189918, sp=83, sb=5158
+676: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=318, rb=23444, sp=1730, sb=1794536
+676: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1730, rb=1787616, sp=318, sb=22172
+676: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=85, rb=5612, sp=1963, sb=2194619
+676: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1963, rb=2186767, sp=85, sb=5272
+677: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+678: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=606, rb=47734, sp=1442, sb=1337617
+678: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1442, rb=1331849, sp=606, sb=45310
+680: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=845, rb=71023, sp=1203, sb=813878
+680: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1203, rb=809066, sp=845, sb=67643
+680: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=75, rb=5038, sp=1974, sb=2229469
+680: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1973, rb=2221485, sp=74, sb=4722
+680: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=66, rb=4490, sp=1982, sb=2245899
+680: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1982, rb=2237971, sp=66, sb=4226
+681: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=634, rb=66710, sp=1414, sb=948124
+681: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1414, rb=942468, sp=634, sb=64174
+682: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=508, rb=50613, sp=1540, sb=1271064
+682: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1540, rb=1264904, sp=508, sb=48581
+682: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=27, rb=2190, sp=2021, sb=2320402
+682: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2021, rb=2312318, sp=27, sb=2082
+682: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=24, rb=2006, sp=2024, sb=2331470
+682: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2024, rb=2323374, sp=24, sb=1910
+683: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=584, rb=53893, sp=1464, sb=1263948
+683: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1464, rb=1258092, sp=584, sb=51557
+684: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=603, rb=57498, sp=1445, sb=1133650
+684: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1445, rb=1127870, sp=603, sb=55086
+685: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=39, rb=3089, sp=2009, sb=2317752
+685: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2009, rb=2309716, sp=39, sb=2933
+685: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=37, rb=2854, sp=2011, sb=2328060
+685: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2011, rb=2320016, sp=37, sb=2706
+686: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=537, rb=43012, sp=1511, sb=1469234
+686: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1511, rb=1463190, sp=537, sb=40864
+687: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+687: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=45, rb=3632, sp=2004, sb=2324305
+687: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2003, rb=2316201, sp=44, sb=3436
+687: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=639, rb=56556, sp=1409, sb=1208254
+687: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1409, rb=1202618, sp=639, sb=54000
+687: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=47, rb=3877, sp=2001, sb=2317467
+687: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2001, rb=2309463, sp=47, sb=3689
+688: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=481, rb=47402, sp=1567, sb=1434043
+688: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1567, rb=1427775, sp=481, sb=45478
+689: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=669, rb=66798, sp=1379, sb=872469
+689: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1379, rb=866953, sp=669, sb=64122
+689: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=20, rb=1816, sp=2028, sb=2337516
+689: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2028, rb=2329404, sp=20, sb=1736
+690: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=18, rb=1518, sp=2030, sb=2338056
+690: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2030, rb=2329936, sp=18, sb=1446
+691: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=406, rb=33824, sp=1642, sb=1570003
+691: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1642, rb=1563435, sp=406, sb=32200
+693: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=69, rb=4997, sp=1979, sb=2226887
+693: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1979, rb=2218971, sp=69, sb=4721
+693: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=74, rb=5214, sp=1974, sb=2219466
+693: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1974, rb=2211570, sp=74, sb=4918
+695: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=252, rb=18486, sp=1796, sb=1915665
+695: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1796, rb=1908481, sp=252, sb=17478
+696: : session 128000000000000003: refreshed, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+696: : session 128000000000000003: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet REFRESH processed, success
+696: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=5398, sp=1969, sb=2220693
+696: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2212817, sp=79, sb=5082
+697: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=5302, sp=1969, sb=2216721
+697: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2208845, sp=79, sb=4986
+697: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+698: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=386, rb=29476, sp=1663, sb=1691199
+698: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1662, rb=1684463, sp=385, sb=27828
+699: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=575, rb=45942, sp=1473, sb=1394199
+699: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1473, rb=1388307, sp=575, sb=43642
+699: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=64, rb=4682, sp=1985, sb=2259380
+699: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1984, rb=2251352, sp=63, sb=4410
+700: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=61, rb=4578, sp=1987, sb=2266418
+700: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1987, rb=2258470, sp=61, sb=4334
+700: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=770, rb=61849, sp=1278, sb=1058272
+700: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1278, rb=1053160, sp=770, sb=58769
+702: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=699, rb=55758, sp=1349, sb=1172735
+702: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1349, rb=1167339, sp=699, sb=52962
+702: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=64, rb=4738, sp=1984, sb=2250999
+702: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1984, rb=2243063, sp=64, sb=4482
+703: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=66, rb=4919, sp=1982, sb=2252049
+703: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1982, rb=2244121, sp=66, sb=4655
+703: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=792, rb=63434, sp=1256, sb=1014072
+703: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1256, rb=1009048, sp=792, sb=60266
+706: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=798, rb=65775, sp=1250, sb=871896
+706: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1250, rb=866896, sp=798, sb=62583
+707: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+707: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=106, rb=6386, sp=1943, sb=2128593
+707: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1942, rb=2120733, sp=105, sb=5946
+708: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=104, rb=6292, sp=1944, sb=2131286
+708: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1944, rb=2123510, sp=104, sb=5876
+708: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=679, rb=53135, sp=1369, sb=1188572
+708: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1369, rb=1183096, sp=679, sb=50419
+710: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=570, rb=45256, sp=1478, sb=1398801
+710: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1478, rb=1392889, sp=570, sb=42976
+711: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=70, rb=5014, sp=1978, sb=2243901
+711: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1978, rb=2235989, sp=70, sb=4734
+711: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=67, rb=4830, sp=1981, sb=2246873
+711: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1981, rb=2238949, sp=67, sb=4562
+712: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=588, rb=46543, sp=1460, sb=1345210
+712: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1460, rb=1339370, sp=588, sb=44191
+714: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=810, rb=64573, sp=1238, sb=976942
+714: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1238, rb=971990, sp=810, sb=61333
+714: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=77, rb=5202, sp=1971, sb=2204317
+714: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1971, rb=2196433, sp=77, sb=4894
+715: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=5314, sp=1969, sb=2202044
+715: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2194168, sp=79, sb=4998
+717: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+717: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=275, rb=19848, sp=1773, sb=1868396
+717: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1773, rb=1861304, sp=275, sb=18748
+718: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=91, rb=5892, sp=1958, sb=2179498
+718: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1957, rb=2171578, sp=90, sb=5512
+719: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=90, rb=5840, sp=1958, sb=2177241
+719: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1958, rb=2169409, sp=90, sb=5480
+721: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=276, rb=19977, sp=1772, sb=1855303
+721: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1772, rb=1848215, sp=276, sb=18873
+722: : session 128000000000000001: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=0, rb=0, sp=703, sb=447431
+722: : session 128000000000000001: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=703, rb=444619, sp=0, sb=0
+722: : session 128000000000000001: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12393, reason: allocation timeout
+722: : session 128000000000000001: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+722: : session 128000000000000001: peer 10.0.0.13 deleted
+723: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=88, rb=5788, sp=1960, sb=2180391
+723: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1960, rb=2172551, sp=88, sb=5436
+723: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=88, rb=5768, sp=1960, sb=2183812
+723: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1960, rb=2175972, sp=88, sb=5416
+723: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=666, rb=52458, sp=1382, sb=1217693
+723: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1382, rb=1212165, sp=666, sb=49794
+725: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=530, rb=42394, sp=1518, sb=1468155
+725: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1518, rb=1462083, sp=530, sb=40274
+725: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=56, rb=4392, sp=1992, sb=2271665
+725: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1992, rb=2263697, sp=56, sb=4168
+726: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=56, rb=4427, sp=1992, sb=2268601
+726: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1992, rb=2260633, sp=56, sb=4203
+727: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+733: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=238, rb=15310, sp=1810, sb=1782960
+733: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1810, rb=1775720, sp=238, sb=14358
+736: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=186, rb=9952, sp=1863, sb=1889179
+736: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1862, rb=1881639, sp=185, sb=9192
+737: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+739: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=227, rb=11965, sp=1821, sb=1846579
+739: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1821, rb=1839295, sp=227, sb=11057
+747: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+747: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=626, rb=42876, sp=1422, sb=1293488
+747: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1422, rb=1287800, sp=626, sb=40372
+757: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+764: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=439, rb=20966, sp=1612, sb=1533035
+764: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1609, rb=1526323, sp=436, sb=19162
+767: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+769: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=482, rb=22854, sp=1566, sb=1446987
+769: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1566, rb=1440723, sp=482, sb=20926
+771: : session 128000000000000009: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet message processed, error 438: Wrong nonce
+775: : session 128000000000000010: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+775: : session 128000000000000010: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+775: : IPv4. Local relay addr: 10.0.0.13:55141
+775: : session 128000000000000010: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+775: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+775: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 300
+775: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+775: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 600
+775: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+777: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+783: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=528, rb=38587, sp=1525, sb=1452006
+783: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1520, rb=1445310, sp=523, sb=35984
+783: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=316, rb=15451, sp=1734, sb=1826045
+783: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1732, rb=1818933, sp=314, sb=14155
+785: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+786: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=202, rb=9799, sp=1846, sb=1985549
+786: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1846, rb=1978165, sp=202, sb=8991
+787: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+790: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=398, rb=27547, sp=1651, sb=1663780
+790: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1650, rb=1657088, sp=397, sb=25939
+791: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=141, rb=7964, sp=1908, sb=2114339
+791: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1907, rb=2106619, sp=140, sb=7384
+793: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=71, rb=3994, sp=1977, sb=2197934
+793: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1977, rb=2190026, sp=71, sb=3710
+794: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=531, rb=39319, sp=1517, sb=1502237
+794: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1517, rb=1496169, sp=531, sb=37195
+795: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+797: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+798: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=309, rb=22177, sp=1740, sb=1852724
+798: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1739, rb=1845676, sp=308, sb=20925
+798: : session 128000000000000004: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=39, rb=3102, sp=1332, sb=1531308
+798: : session 128000000000000004: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1332, rb=1525980, sp=39, sb=2946
+798: : session 128000000000000004: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 171.218.202.28:56607, reason: allocation timeout
+798: : session 128000000000000004: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+798: : session 128000000000000004: peer 10.0.0.13 deleted
+799: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=122, rb=7459, sp=1926, sb=2197019
+799: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1926, rb=2189315, sp=122, sb=6971
+802: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=250, rb=17979, sp=1798, sb=1896975
+802: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1798, rb=1889783, sp=250, sb=16979
+803: : session 128000000000000005: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=3476, sp=471, sb=434298
+803: : session 128000000000000005: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=471, rb=432414, sp=68, sb=3204
+803: : session 128000000000000005: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.136.64.72:42150, reason: allocation timeout
+803: : session 128000000000000005: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+803: : session 128000000000000005: peer 10.0.0.13 deleted
+804: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=107, rb=6558, sp=1941, sb=2142729
+804: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1941, rb=2134965, sp=107, sb=6130
+805: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+807: : session 128000000000000007: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+811: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=266, rb=16670, sp=1783, sb=1762523
+811: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1782, rb=1755303, sp=265, sb=15590
+812: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=181, rb=9652, sp=1867, sb=1902846
+812: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1867, rb=1895378, sp=181, sb=8928
+815: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+825: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+828: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=304, rb=15144, sp=1746, sb=1685257
+828: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1744, rb=1678097, sp=302, sb=13896
+831: : session 128000000000000009: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=3, rb=232, sp=1, sb=116
+831: : session 128000000000000009: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=0, rb=0, sp=0, sb=0
+831: : session 128000000000000009: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12368, reason: allocation watchdog determined stale session state
+832: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=236, rb=17155, sp=1812, sb=1917158
+832: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1812, rb=1909910, sp=236, sb=16211
+835: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=229, rb=17401, sp=1819, sb=1968058
+835: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1819, rb=1960782, sp=229, sb=16485
+835: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+838: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=257, rb=19427, sp=1792, sb=1915795
+838: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1791, rb=1908539, sp=256, sb=18383
+841: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=182, rb=13855, sp=1866, sb=2031897
+841: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1866, rb=2024433, sp=182, sb=13127
+844: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=112, rb=8668, sp=1936, sb=2155169
+844: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1936, rb=2147425, sp=112, sb=8220
+845: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+846: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=132, rb=10827, sp=1917, sb=2139131
+846: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1916, rb=2131375, sp=131, sb=10283
+849: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=263, rb=20493, sp=1785, sb=1915966
+849: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1785, rb=1908826, sp=263, sb=19441
+853: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=118, rb=8613, sp=1930, sb=2128739
+853: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1930, rb=2121019, sp=118, sb=8141
+855: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+856: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=110, rb=8250, sp=1939, sb=2148647
+856: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1938, rb=2140803, sp=109, sb=7794
+859: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=241, rb=18544, sp=1807, sb=1955838
+859: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1807, rb=1948610, sp=241, sb=17580
+861: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=269, rb=20870, sp=1779, sb=1896768
+861: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1779, rb=1889652, sp=269, sb=19794
+864: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=351, rb=27028, sp=1697, sb=1753752
+864: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1697, rb=1746964, sp=351, sb=25624
+865: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+867: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=349, rb=26166, sp=1700, sb=1741305
+867: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1699, rb=1734417, sp=348, sb=24754
+868: : session 128000000000000011: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+868: : session 128000000000000011: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+869: : IPv4. Local relay addr: 10.0.0.13:59797
+869: : session 128000000000000011: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+869: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+869: : session 128000000000000011: peer 10.0.0.13 lifetime updated: 300
+869: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+869: : session 128000000000000011: peer 10.0.0.13 lifetime updated: 600
+869: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+870: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=386, rb=29204, sp=1662, sb=1682524
+870: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1662, rb=1675876, sp=386, sb=27660
+871: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=82, rb=7416, sp=1971, sb=2209312
+871: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1966, rb=2200832, sp=77, sb=6597
+872: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=342, rb=26525, sp=1706, sb=1777591
+872: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1706, rb=1770767, sp=342, sb=25157
+875: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=72, rb=5124, sp=1976, sb=2230011
+875: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1976, rb=2222107, sp=72, sb=4836
+875: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=406, rb=31360, sp=1642, sb=1667212
+875: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1642, rb=1660644, sp=406, sb=29736
+875: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+877: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=277, rb=21291, sp=1772, sb=1874321
+877: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1771, rb=1867145, sp=276, sb=20167
+878: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=62, rb=4660, sp=1986, sb=2238401
+878: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1986, rb=2230457, sp=62, sb=4412
+878: : session 128000000000000006: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=92, rb=4607, sp=512, sb=419790
+878: : session 128000000000000006: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=512, rb=417742, sp=92, sb=4239
+878: : session 128000000000000006: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12535, reason: allocation timeout
+878: : session 128000000000000006: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+878: : session 128000000000000006: peer 10.0.0.13 deleted
+878: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+880: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=329, rb=24982, sp=1719, sb=1783606
+880: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1719, rb=1776730, sp=329, sb=23666
+881: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=81, rb=5440, sp=1968, sb=2214926
+881: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1967, rb=2206966, sp=80, sb=5100
+883: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=275, rb=19906, sp=1773, sb=1891456
+883: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1773, rb=1884364, sp=275, sb=18806
+885: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+885: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=87, rb=5638, sp=1961, sb=2224870
+885: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1961, rb=2217026, sp=87, sb=5290
+886: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=274, rb=20432, sp=1775, sb=1899092
+886: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1774, rb=1891904, sp=273, sb=19320
+888: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=66, rb=4876, sp=1982, sb=2238244
+888: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1982, rb=2230316, sp=66, sb=4612
+888: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+889: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=221, rb=16390, sp=1827, sb=1966085
+889: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1827, rb=1958777, sp=221, sb=15506
+891: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=59, rb=4452, sp=1990, sb=2257449
+891: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1989, rb=2249401, sp=58, sb=4200
+891: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=202, rb=15361, sp=1846, sb=2010801
+891: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1846, rb=2003417, sp=202, sb=14553
+894: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=265, rb=20667, sp=1783, sb=1911910
+894: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1783, rb=1904778, sp=265, sb=19607
+894: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=55, rb=4350, sp=1993, sb=2275214
+894: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1993, rb=2267242, sp=55, sb=4130
+895: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+897: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=293, rb=21526, sp=1756, sb=1827186
+897: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1755, rb=1820074, sp=292, sb=20338
+897: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=81, rb=5398, sp=1967, sb=2187574
+897: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1967, rb=2179706, sp=81, sb=5074
+898: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+899: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=265, rb=20060, sp=1783, sb=1900901
+899: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1783, rb=1893769, sp=265, sb=19000
+901: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=70, rb=4921, sp=1979, sb=2236288
+901: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1978, rb=2228284, sp=69, sb=4625
+902: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=262, rb=19825, sp=1786, sb=1909985
+902: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1786, rb=1902841, sp=262, sb=18777
+904: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=69, rb=5006, sp=1979, sb=2231814
+904: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1979, rb=2223898, sp=69, sb=4730
+905: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=241, rb=17678, sp=1807, sb=1916385
+905: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1807, rb=1909157, sp=241, sb=16714
+908: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=94, rb=5989, sp=1954, sb=2155155
+908: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1954, rb=2147339, sp=94, sb=5613
+908: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+909: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=221, rb=16026, sp=1827, sb=1945468
+909: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1827, rb=1938160, sp=221, sb=15142
+911: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4868, sp=1981, sb=2240332
+911: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2232320, sp=67, sb=4580
+912: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=264, rb=20152, sp=1784, sb=1906722
+912: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1784, rb=1899586, sp=264, sb=19096
+914: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=255, rb=19215, sp=1793, sb=1912012
+914: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1793, rb=1904840, sp=255, sb=18195
+914: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=66, rb=4848, sp=1982, sb=2241665
+914: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1982, rb=2233737, sp=66, sb=4584
+918: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+921: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=185, rb=11805, sp=1863, sb=1942538
+921: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1863, rb=1935086, sp=185, sb=11065
+922: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=157, rb=8608, sp=1892, sb=2014229
+922: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1891, rb=2006573, sp=156, sb=7964
+924: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=271, rb=20293, sp=1777, sb=1883980
+924: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1777, rb=1876872, sp=271, sb=19209
+925: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=70, rb=4952, sp=1978, sb=2225852
+925: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1978, rb=2217940, sp=70, sb=4672
+927: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=247, rb=18851, sp=1801, sb=1934622
+927: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1801, rb=1927418, sp=247, sb=17863
+928: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+929: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=5376, sp=1970, sb=2210129
+929: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2202161, sp=78, sb=5044
+930: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=311, rb=22656, sp=1737, sb=1810620
+930: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1737, rb=1803672, sp=311, sb=21412
+933: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=87, rb=5697, sp=1961, sb=2195804
+933: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1961, rb=2187960, sp=87, sb=5349
+934: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=325, rb=24249, sp=1723, sb=1776927
+934: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1723, rb=1770035, sp=325, sb=22949
+937: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=85, rb=5642, sp=1963, sb=2185670
+937: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1963, rb=2177818, sp=85, sb=5302
+937: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=279, rb=20398, sp=1769, sb=1867432
+937: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1769, rb=1860356, sp=279, sb=19282
+939: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+940: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=257, rb=19312, sp=1791, sb=1916242
+940: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1791, rb=1909078, sp=257, sb=18284
+940: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=67, rb=4748, sp=1982, sb=2246844
+940: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1981, rb=2238828, sp=66, sb=4464
+942: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=252, rb=18815, sp=1796, sb=1917535
+942: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1796, rb=1910351, sp=252, sb=17807
+943: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=74, rb=5191, sp=1974, sb=2212480
+943: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1974, rb=2204584, sp=74, sb=4895
+946: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=269, rb=19472, sp=1779, sb=1864289
+946: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1779, rb=1857173, sp=269, sb=18396
+947: : session 128000000000000007: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=397, rb=37680, sp=784, sb=901562
+947: : session 128000000000000007: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=782, rb=898250, sp=395, sb=36060
+947: : session 128000000000000007: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12779, reason: allocation timeout
+947: : session 128000000000000007: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+947: : session 128000000000000007: peer 10.0.0.13 deleted
+947: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=89, rb=5790, sp=1959, sb=2182445
+947: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1959, rb=2174609, sp=89, sb=5434
+949: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+949: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=261, rb=19617, sp=1787, sb=1908015
+949: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1787, rb=1900867, sp=261, sb=18573
+950: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=65, rb=4728, sp=1984, sb=2234583
+950: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1983, rb=2226559, sp=64, sb=4452
+952: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=228, rb=16820, sp=1820, sb=1939855
+952: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1820, rb=1932575, sp=228, sb=15908
+954: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=76, rb=5256, sp=1972, sb=2183357
+954: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1972, rb=2175469, sp=76, sb=4952
+955: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=243, rb=17987, sp=1805, sb=1914594
+955: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1805, rb=1907374, sp=243, sb=17015
+957: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=75, rb=5146, sp=1973, sb=2217389
+957: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1973, rb=2209497, sp=75, sb=4846
+958: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=252, rb=18391, sp=1796, sb=1907453
+958: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1796, rb=1900269, sp=252, sb=17383
+959: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+965: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=170, rb=9141, sp=1879, sb=1923817
+965: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1878, rb=1916213, sp=169, sb=8445
+966: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=230, rb=14630, sp=1818, sb=1813408
+966: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1818, rb=1806136, sp=230, sb=13710
+977: : session 128000000000000012: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+977: : session 128000000000000012: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+977: : IPv4. Local relay addr: 10.0.0.13:58222
+977: : session 128000000000000012: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+977: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+977: : session 128000000000000012: peer 10.0.0.13 lifetime updated: 300
+977: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+977: : session 128000000000000012: peer 10.0.0.13 lifetime updated: 600
+977: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+981: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=278, rb=14018, sp=1770, sb=1600234
+981: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1770, rb=1593154, sp=278, sb=12906
+987: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+987: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=207, rb=12867, sp=1847, sb=1614155
+987: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1841, rb=1606083, sp=201, sb=11500
+988: : session 128000000000000008: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=300, rb=14599, sp=1638, sb=1575244
+988: : session 128000000000000008: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1638, rb=1568692, sp=300, sb=13399
+988: : session 128000000000000008: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 171.218.202.28:56602, reason: allocation timeout
+988: : session 128000000000000008: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+988: : session 128000000000000008: peer 10.0.0.13 deleted
+988: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=246, rb=16188, sp=1802, sb=1801534
+988: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1802, rb=1794326, sp=246, sb=15204
+990: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=50, rb=4156, sp=1998, sb=2270714
+990: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1998, rb=2262722, sp=50, sb=3956
+991: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=229, rb=17563, sp=1819, sb=1975240
+991: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1819, rb=1967964, sp=229, sb=16647
+993: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=50, rb=4084, sp=1998, sb=2273546
+993: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1998, rb=2265554, sp=50, sb=3884
+993: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=283, rb=22096, sp=1765, sb=1883444
+993: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1765, rb=1876384, sp=283, sb=20964
+995: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=274, rb=21678, sp=1774, sb=1906211
+995: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1774, rb=1899115, sp=274, sb=20582
+995: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=40, rb=3748, sp=2008, sb=2307674
+995: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2008, rb=2299642, sp=40, sb=3588
+997: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+997: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=203, rb=15595, sp=1845, sb=2001094
+997: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1845, rb=1993714, sp=203, sb=14783
+997: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=49, rb=4060, sp=2000, sb=2258921
+997: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1999, rb=2250833, sp=48, sb=3848
+999: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=280, rb=21397, sp=1768, sb=1872454
+999: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1768, rb=1865382, sp=280, sb=20277
+1000: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=48, rb=4052, sp=2000, sb=2270047
+1000: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2000, rb=2262047, sp=48, sb=3860
+1002: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=257, rb=19396, sp=1791, sb=1909095
+1002: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1791, rb=1901931, sp=257, sb=18368
+1004: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=64, rb=4652, sp=1984, sb=2207585
+1004: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1984, rb=2199649, sp=64, sb=4396
+1005: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=280, rb=20878, sp=1768, sb=1844684
+1005: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1768, rb=1837612, sp=280, sb=19758
+1007: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1007: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=64, rb=4846, sp=1985, sb=2234530
+1007: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1984, rb=2226502, sp=63, sb=4574
+1008: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=316, rb=24016, sp=1732, sb=1804715
+1008: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1732, rb=1797787, sp=316, sb=22752
+1009: : session 128000000000000011: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1010: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=332, rb=25498, sp=1716, sb=1787408
+1010: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1716, rb=1780544, sp=332, sb=24170
+1011: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=56, rb=4395, sp=1992, sb=2241107
+1011: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1992, rb=2233139, sp=56, sb=4171
+1014: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=279, rb=20181, sp=1769, sb=1864819
+1014: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1769, rb=1857743, sp=279, sb=19065
+1015: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 300
+1015: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+1015: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 600
+1015: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1015: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=85, rb=5666, sp=1963, sb=2174127
+1015: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1963, rb=2166275, sp=85, sb=5326
+1017: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1024: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=273, rb=17148, sp=1777, sb=1745167
+1024: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1775, rb=1737907, sp=271, sb=15816
+1025: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=168, rb=9354, sp=1881, sb=1948873
+1025: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1880, rb=1941261, sp=167, sb=8666
+1026: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=258, rb=20137, sp=1790, sb=1923298
+1026: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1790, rb=1916138, sp=258, sb=19105
+1027: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1028: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=62, rb=4590, sp=1987, sb=2220150
+1028: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1986, rb=2212114, sp=61, sb=4326
+1035: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=267, rb=16606, sp=1781, sb=1833820
+1035: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1781, rb=1826696, sp=267, sb=15538
+1036: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=146, rb=8385, sp=1902, sb=2082272
+1036: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1902, rb=2074664, sp=146, sb=7801
+1037: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1037: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=306, rb=23916, sp=1742, sb=1850258
+1037: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1742, rb=1843290, sp=306, sb=22692
+1039: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=50, rb=4094, sp=1999, sb=2267902
+1039: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1998, rb=2259818, sp=49, sb=3878
+1039: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=292, rb=22705, sp=1756, sb=1866840
+1039: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1756, rb=1859816, sp=292, sb=21537
+1042: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=234, rb=17246, sp=1814, sb=1920396
+1042: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1814, rb=1913140, sp=234, sb=16310
+1042: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=64, rb=4899, sp=1984, sb=2207466
+1042: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1984, rb=2199530, sp=64, sb=4643
+1045: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=247, rb=18350, sp=1801, sb=1920970
+1045: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1801, rb=1913766, sp=247, sb=17362
+1046: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=59, rb=4490, sp=1989, sb=2233464
+1046: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1989, rb=2225508, sp=59, sb=4254
+1047: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1047: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=320, rb=24795, sp=1728, sb=1811990
+1047: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1728, rb=1805078, sp=320, sb=23515
+1048: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=46, rb=3942, sp=2003, sb=2286755
+1048: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2002, rb=2278655, sp=45, sb=3742
+1049: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=289, rb=22622, sp=1759, sb=1871233
+1049: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1759, rb=1864197, sp=289, sb=21466
+1052: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=63, rb=4754, sp=1985, sb=2218996
+1052: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1985, rb=2211056, sp=63, sb=4502
+1054: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=180, rb=12973, sp=1868, sb=2014199
+1054: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1868, rb=2006727, sp=180, sb=12253
+1056: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=67, rb=4802, sp=1981, sb=2234446
+1056: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1981, rb=2226522, sp=67, sb=4534
+1056: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=269, rb=20727, sp=1779, sb=1899377
+1056: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1779, rb=1892261, sp=269, sb=19651
+1057: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1059: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=258, rb=19278, sp=1790, sb=1886185
+1059: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1790, rb=1879025, sp=258, sb=18246
+1059: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=59, rb=4484, sp=1990, sb=2214295
+1059: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1989, rb=2206247, sp=58, sb=4232
+1061: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=303, rb=23893, sp=1745, sb=1853016
+1061: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1745, rb=1846036, sp=303, sb=22681
+1061: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=41, rb=3706, sp=2007, sb=2296312
+1061: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=2007, rb=2288284, sp=41, sb=3542
+1063: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=253, rb=19641, sp=1795, sb=1929527
+1063: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1795, rb=1922347, sp=253, sb=18629
+1064: : session 128000000000000013: realm <PixelStreaming> user <>: incoming packet BINDING processed, success
+1064: : session 128000000000000013: realm <PixelStreaming> user <>: incoming packet message processed, error 401: Unauthorized
+1064: : IPv4. Local relay addr: 10.0.0.13:50797
+1064: : session 128000000000000013: new, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+1064: : session 128000000000000013: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet ALLOCATE processed, success
+1064: : session 128000000000000013: peer 10.0.0.13 lifetime updated: 300
+1064: : session 128000000000000013: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+1064: : session 128000000000000013: peer 10.0.0.13 lifetime updated: 600
+1064: : session 128000000000000013: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1064: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=49, rb=4129, sp=1999, sb=2261654
+1064: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1999, rb=2253658, sp=49, sb=3933
+1066: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=218, rb=16210, sp=1830, sb=1951099
+1066: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1830, rb=1943779, sp=218, sb=15338
+1066: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=79, rb=7249, sp=1974, sb=2168646
+1066: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1969, rb=2160154, sp=74, sb=6442
+1067: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1067: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=62, rb=4674, sp=1987, sb=2203236
+1067: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1986, rb=2195200, sp=61, sb=4410
+1069: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=264, rb=19648, sp=1784, sb=1871777
+1069: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1784, rb=1864641, sp=264, sb=18592
+1070: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=76, rb=5260, sp=1972, sb=2199900
+1070: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1972, rb=2192012, sp=76, sb=4956
+1071: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=58, rb=4456, sp=1990, sb=2249758
+1071: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1990, rb=2241798, sp=58, sb=4224
+1071: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=272, rb=20847, sp=1776, sb=1898770
+1071: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1776, rb=1891666, sp=272, sb=19759
+1073: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=71, rb=5162, sp=1977, sb=2227024
+1073: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1977, rb=2219116, sp=71, sb=4878
+1074: : session 128000000000000013: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1074: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=65, rb=4818, sp=1983, sb=2211425
+1074: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1983, rb=2203493, sp=65, sb=4558
+1074: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=274, rb=20187, sp=1774, sb=1865144
+1074: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1774, rb=1858048, sp=274, sb=19091
+1076: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=65, rb=4963, sp=1984, sb=2207800
+1076: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1983, rb=2199776, sp=64, sb=4687
+1077: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1077: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=225, rb=16596, sp=1823, sb=1934075
+1077: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1823, rb=1926783, sp=225, sb=15696
+1078: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=59, rb=4488, sp=1990, sb=2214254
+1078: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1989, rb=2206206, sp=58, sb=4236
+1080: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=67, rb=4802, sp=1981, sb=2199075
+1080: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1981, rb=2191151, sp=67, sb=4534
+1081: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=256, rb=18660, sp=1792, sb=1885530
+1081: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1792, rb=1878362, sp=256, sb=17636
+1082: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=68, rb=4872, sp=1980, sb=2202109
+1082: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1980, rb=2194189, sp=68, sb=4600
+1083: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=257, rb=19187, sp=1791, sb=1915725
+1083: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1791, rb=1908561, sp=257, sb=18159
+1084: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=73, rb=5136, sp=1975, sb=2232054
+1084: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1975, rb=2224154, sp=73, sb=4844
+1084: : session 128000000000000013: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1085: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=60, rb=4620, sp=1988, sb=2248688
+1085: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1988, rb=2240736, sp=60, sb=4380
+1086: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=244, rb=18100, sp=1804, sb=1916405
+1086: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1804, rb=1909189, sp=244, sb=17124
+1087: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=75, rb=5166, sp=1974, sb=2201746
+1087: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1973, rb=2193762, sp=74, sb=4850
+1087: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1088: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=60, rb=4542, sp=1989, sb=2233319
+1088: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1988, rb=2225275, sp=59, sb=4286
+1093: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=234, rb=15676, sp=1814, sb=1849661
+1093: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1814, rb=1842405, sp=234, sb=14740
+1094: : session 128000000000000013: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1097: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet BINDING processed, success
+1108: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=352, rb=17320, sp=1697, sb=1443252
+1108: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1696, rb=1436376, sp=351, sb=15896
+1117: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20803, sp=1616, sb=1277197
+1117: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1270733, sp=432, sb=19075
+1132: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=427, rb=20575, sp=1621, sb=1296341
+1132: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1621, rb=1289857, sp=427, sb=18867
+1141: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20423, sp=1625, sb=1295262
+1141: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1288762, sp=423, sb=18731
+1156: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20531, sp=1622, sb=1318706
+1156: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1312218, sp=426, sb=18827
+1165: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20743, sp=1618, sb=1318236
+1165: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1311764, sp=430, sb=19023
+1180: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=425, rb=20510, sp=1623, sb=1287564
+1180: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1623, rb=1281072, sp=425, sb=18810
+1189: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=425, rb=20574, sp=1623, sb=1305232
+1189: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1623, rb=1298740, sp=425, sb=18874
+1204: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20498, sp=1622, sb=1295532
+1204: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1289044, sp=426, sb=18794
+1213: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20864, sp=1616, sb=1269195
+1213: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1262731, sp=432, sb=19136
+1217: : session 128000000000000012: peer 10.0.0.13 lifetime updated: 300
+1217: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CREATE_PERMISSION processed, success
+1217: : session 128000000000000012: peer 10.0.0.13 lifetime updated: 600
+1217: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1228: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=421, rb=20502, sp=1629, sb=1315808
+1228: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1627, rb=1309140, sp=419, sb=18578
+1236: : session 128000000000000003: peer 10.0.0.13 deleted
+1237: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=418, rb=20140, sp=1630, sb=1313872
+1237: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1630, rb=1307352, sp=418, sb=18468
+1252: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=421, rb=20446, sp=1627, sb=1294751
+1252: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1627, rb=1288243, sp=421, sb=18762
+1255: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 600
+1255: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1261: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=428, rb=20774, sp=1621, sb=1302140
+1261: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1620, rb=1295580, sp=427, sb=18938
+1276: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=425, rb=20686, sp=1623, sb=1290995
+1276: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1623, rb=1284503, sp=425, sb=18986
+1285: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20798, sp=1618, sb=1288423
+1285: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1281951, sp=430, sb=19078
+1296: : session 128000000000000003: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=286, rb=14043, sp=1501, sb=1108797
+1296: : session 128000000000000003: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1501, rb=1102793, sp=286, sb=12899
+1296: : session 128000000000000003: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12529, reason: allocation timeout
+1296: : session 128000000000000003: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+1300: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20724, sp=1618, sb=1304491
+1300: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1298019, sp=430, sb=19004
+1309: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20780, sp=1618, sb=1288873
+1309: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1282401, sp=430, sb=19060
+1315: : session 128000000000000010: refreshed, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+1315: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet REFRESH processed, success
+1324: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=420, rb=20270, sp=1628, sb=1307025
+1324: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1628, rb=1300513, sp=420, sb=18590
+1333: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=422, rb=20400, sp=1627, sb=1321981
+1333: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1626, rb=1315389, sp=421, sb=18608
+1348: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=428, rb=20750, sp=1620, sb=1267616
+1348: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1620, rb=1261136, sp=428, sb=19038
+1357: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20870, sp=1616, sb=1286683
+1357: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1280219, sp=432, sb=19142
+1372: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20438, sp=1625, sb=1321732
+1372: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1315232, sp=423, sb=18746
+1381: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=431, rb=20846, sp=1617, sb=1292273
+1381: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1617, rb=1285805, sp=431, sb=19122
+1396: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20392, sp=1625, sb=1321427
+1396: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1314927, sp=423, sb=18700
+1405: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20436, sp=1625, sb=1313401
+1405: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1306901, sp=423, sb=18744
+1420: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=422, rb=20384, sp=1626, sb=1283523
+1420: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1626, rb=1277019, sp=422, sb=18696
+1429: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20420, sp=1625, sb=1293408
+1429: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1286908, sp=423, sb=18728
+1444: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=431, rb=20740, sp=1617, sb=1272407
+1444: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1617, rb=1265939, sp=431, sb=19016
+1453: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=441, rb=21282, sp=1607, sb=1266398
+1453: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1607, rb=1259970, sp=441, sb=19518
+1457: : session 128000000000000012: peer 10.0.0.13 lifetime updated: 600
+1457: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1468: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=428, rb=20934, sp=1621, sb=1325714
+1468: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1620, rb=1319154, sp=427, sb=19098
+1469: : session 128000000000000011: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=40, rb=2160, sp=384, sb=382791
+1469: : session 128000000000000011: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=383, rb=381167, sp=39, sb=1984
+1469: : session 128000000000000011: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12352, reason: allocation timeout
+1469: : session 128000000000000011: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+1469: : session 128000000000000011: peer 10.0.0.13 deleted
+1477: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20778, sp=1618, sb=1324974
+1477: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1318502, sp=430, sb=19058
+1493: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20540, sp=1622, sb=1297157
+1493: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1290669, sp=426, sb=18836
+1495: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet message processed, error 438: Stale nonce
+1495: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 600
+1495: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1501: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20948, sp=1620, sb=1314991
+1501: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1308323, sp=428, sb=18980
+1517: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=427, rb=20592, sp=1621, sb=1277484
+1517: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1621, rb=1271000, sp=427, sb=18884
+1517: : session 128000000000000012: refreshed, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+1517: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet REFRESH processed, success
+1525: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20708, sp=1618, sb=1275903
+1525: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1269431, sp=430, sb=18988
+1541: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20382, sp=1626, sb=1322727
+1541: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1316139, sp=422, sb=18586
+1549: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=429, rb=20762, sp=1619, sb=1288360
+1549: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1619, rb=1281884, sp=429, sb=19046
+1565: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20808, sp=1616, sb=1302728
+1565: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1296264, sp=432, sb=19080
+1573: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20854, sp=1618, sb=1318487
+1573: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1312015, sp=430, sb=19134
+1589: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20706, sp=1618, sb=1292145
+1589: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1285673, sp=430, sb=18986
+1597: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=431, rb=20844, sp=1617, sb=1298331
+1597: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1617, rb=1291863, sp=431, sb=19120
+1613: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20776, sp=1618, sb=1288294
+1613: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1281822, sp=430, sb=19056
+1622: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=433, rb=20918, sp=1615, sb=1275394
+1622: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1615, rb=1268934, sp=433, sb=19186
+1637: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20576, sp=1622, sb=1321179
+1637: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1314691, sp=426, sb=18872
+1646: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=423, rb=20408, sp=1625, sb=1323648
+1646: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1625, rb=1317148, sp=423, sb=18716
+1661: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=431, rb=20686, sp=1617, sb=1273629
+1661: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1617, rb=1267161, sp=431, sb=18962
+1664: : session 128000000000000013: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=239, rb=12271, sp=1725, sb=1686058
+1664: : session 128000000000000013: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1724, rb=1679070, sp=238, sb=11299
+1664: : session 128000000000000013: closed (2nd stage), user <PixelStreamingUser> realm <PixelStreaming> origin <>, local 10.0.0.13:19311, remote 117.139.226.34:12581, reason: allocation timeout
+1664: : session 128000000000000013: delete: realm=<PixelStreaming>, username=<PixelStreamingUser>
+1664: : session 128000000000000013: peer 10.0.0.13 deleted
+1670: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20570, sp=1622, sb=1300180
+1670: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1293692, sp=426, sb=18866
+1685: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=429, rb=20710, sp=1619, sb=1308432
+1685: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1619, rb=1301956, sp=429, sb=18994
+1694: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20900, sp=1616, sb=1287596
+1694: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1281132, sp=432, sb=19172
+1697: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet message processed, error 438: Stale nonce
+1697: : session 128000000000000012: peer 10.0.0.13 lifetime updated: 600
+1697: : session 128000000000000012: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1709: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=433, rb=21004, sp=1617, sb=1302792
+1709: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1615, rb=1296136, sp=431, sb=19024
+1718: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20770, sp=1618, sb=1294217
+1718: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1287745, sp=430, sb=19050
+1735: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 600
+1735: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1739: : session 128000000000000012: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=290, rb=14012, sp=1758, sb=1255213
+1739: : session 128000000000000012: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1758, rb=1248181, sp=290, sb=12852
+1741: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=425, rb=20602, sp=1624, sb=1309877
+1741: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1623, rb=1303305, sp=424, sb=18778
+1766: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20880, sp=1616, sb=1274289
+1766: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1267825, sp=432, sb=19152
+1790: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=427, rb=20656, sp=1621, sb=1307776
+1790: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1621, rb=1301292, sp=427, sb=18948
+1814: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=430, rb=20776, sp=1618, sb=1303129
+1814: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1618, rb=1296657, sp=430, sb=19056
+1838: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=421, rb=20290, sp=1627, sb=1304890
+1838: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1627, rb=1298382, sp=421, sb=18606
+1855: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet message processed, error 438: Stale nonce
+1855: : session 128000000000000010: refreshed, realm=<PixelStreaming>, username=<PixelStreamingUser>, lifetime=600
+1855: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet REFRESH processed, success
+1862: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=436, rb=21188, sp=1614, sb=1272177
+1862: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1612, rb=1265525, sp=434, sb=19236
+1886: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20620, sp=1622, sb=1321886
+1886: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1315398, sp=426, sb=18916
+1910: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=432, rb=20850, sp=1616, sb=1297368
+1910: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1616, rb=1290904, sp=432, sb=19122
+1934: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=426, rb=20538, sp=1622, sb=1284482
+1934: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1622, rb=1277994, sp=426, sb=18834
+1958: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=429, rb=20728, sp=1619, sb=1297411
+1958: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1619, rb=1290935, sp=429, sb=19012
+1975: : session 128000000000000010: peer 10.0.0.13 lifetime updated: 600
+1975: : session 128000000000000010: realm <PixelStreaming> user <PixelStreamingUser>: incoming packet CHANNEL_BIND processed, success
+1982: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=427, rb=20736, sp=1622, sb=1322327
+1982: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1621, rb=1315763, sp=426, sb=18904
+2006: : session 128000000000000010: usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=436, rb=21072, sp=1612, sb=1279127
+2006: : session 128000000000000010: peer usage: realm=<PixelStreaming>, username=<PixelStreamingUser>, rp=1612, rb=1272679, sp=436, sb=19328

@@ -1,0 +1,485 @@
+{
+	"uberGraphFrame":
+	{
+	},
+	"time_1_OneDayTime_8253301C4DE0EDB745CECC9E3A774208": 0,
+	"time_1__Direction_8253301C4DE0EDB745CECC9E3A774208": "Forward",
+	"time_0_OneDayTime_00CF8D6A4956F4467F2A3290F33920E7": 0,
+	"time_0__Direction_00CF8D6A4956F4467F2A3290F33920E7": "Forward",
+	"timeAuto_OneDayTime_8F07BD1241EF6DBC41AA7295314D2653": 0,
+	"timeAuto__Direction_8F07BD1241EF6DBC41AA7295314D2653": "Forward",
+	"timeTwo_OneDayTime_8A83CE1B4026412AA4CE2E87CAECFA32": 0,
+	"timeTwo__Direction_8A83CE1B4026412AA4CE2E87CAECFA32": "Forward",
+	"time_OneDayTime_5961736343C975E712C456BC88C75534": 0,
+	"time__Direction_5961736343C975E712C456BC88C75534": "Forward",
+	"climateTime______0_9B9717AA45591DDC5F8321808C646890": 0,
+	"climateTime__Direction_9B9717AA45591DDC5F8321808C646890": "Forward",
+	"sunTiltAngle": 15,
+	"sunRotatAngle": 0,
+	"dawnTime": 6,
+	"duskTime": 18,
+	"moonTiltAngle": 35,
+	"moonRotatAngle": 15,
+	"moonRiseTilt": 1,
+	"moonSize": 1.5,
+	"moonRotat": 0,
+	"starsBrightness": 3,
+	"starrySkyColor":
+	{
+		"r": 0.66911697387695312,
+		"g": 0.84460300207138062,
+		"b": 1,
+		"a": 1
+	},
+	"starrySkyMap": "Texture2D'/DynamicWeather/DynamicWeather/Textures/MoonStars/T_Stars02.T_Stars02'",
+	"moonPhases": 15,
+	"moonColor":
+	{
+		"r": 0.52117300033569336,
+		"g": 0.64791399240493774,
+		"b": 1,
+		"a": 0
+	},
+	"moonColorBrightness": 1.5,
+	"sunlightIntensity": 3,
+	"sunlightColor":
+	{
+		"r": 1,
+		"g": 0.97344601154327393,
+		"b": 0.83879899978637695,
+		"a": 0
+	},
+	"colorTemperature": 6500,
+	"moonlightIntensity": 3,
+	"moonlightColor":
+	{
+		"r": 0.56889599561691284,
+		"g": 0.6674569845199585,
+		"b": 0.86458301544189453,
+		"a": 1
+	},
+	"bottomHeight": 0,
+	"height": 8.6517560000000007,
+	"traceStartMaxDistance": 350,
+	"traceMaxDistance": 100,
+	"cloudCoverage": 8.8753569999999993,
+	"cloudSize": 0.12678500000000001,
+	"addCloudDetail": 0.83199999999999996,
+	"cloudMigrationX": 0.056000000000000001,
+	"cloudMigrationY": 0.12,
+	"cloudWindSpeed": 0.13200000000000001,
+	"sunSize": 2,
+	"solarColor":
+	{
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 0
+	},
+	"solarColorIntensity": 10,
+	"useMoonModel": true,
+	"skyModel": "VolumetricClouds",
+	"fogColor":
+	{
+		"r": 0.44699999690055847,
+		"g": 0.6380000114440918,
+		"b": 1,
+		"a": 1
+	},
+	"fogDensity": 0,
+	"fogHeightAttenuation": 0.20000000000000001,
+	"hDR360Rotation": 0,
+	"hDR360RotationSpeed": 0,
+	"hDR_Brightness": 2,
+	"hDR_Desaturation": 0,
+	"t_HDR_Night": "Texture2D'/DynamicWeather/DynamicWeather/Textures/HDR/satara_night_no_lamps_4k.satara_night_no_lamps_4k'",
+	"t_HDR_Sunrise": "Texture2D'/DynamicWeather/DynamicWeather/Textures/HDR/the_chalk_quarry_4k.the_chalk_quarry_4k'",
+	"t_HDR_Day": "Texture2D'/DynamicWeather/DynamicWeather/Textures/HDR/kloofendal_48d_partly_cloudy_puresky_4k.kloofendal_48d_partly_cloudy_puresky_4k'",
+	"t_HDR_Dusk": "Texture2D'/DynamicWeather/DynamicWeather/Textures/HDR/kloppenheim_06_puresky_4k.kloppenheim_06_puresky_4k'",
+	"staticCloudType": "LightCloud",
+	"rainIntensity": 0,
+	"snowIntensity": 0,
+	"waterColor":
+	{
+		"r": 0.81955301761627197,
+		"g": 0.83556902408599854,
+		"b": 0.86458301544189453,
+		"a": 0
+	},
+	"water_rought": 0,
+	"lightRainPuddlesRainRippleSpeed": 30,
+	"lightRainPuddleRainRippleIntensity": 0.5,
+	"lightRainPuddlesRainRippleSize": 2.5,
+	"heavyRainPuddlesRainPointSize": 0.10000000000000001,
+	"endRainPuddleSlopeStrength": 0.5,
+	"endRainRainDisappearMaskSize": 0.01,
+	"snowUVSize": 1,
+	"snowMaskUVSize": 50,
+	"twoD_LessCloudy_Cloudy": false,
+	"climate": "Sunny",
+	"isAutoTime": false,
+	"lightningSpeed": 0.5,
+	"lightningIntervalTime": 0.050000000000000003,
+	"lightningDuration": 0.90000000000000002,
+	"springPlantColor":
+	{
+		"r": 3.4513199329376221,
+		"g": 5,
+		"b": 0,
+		"a": 1
+	},
+	"autumnPlantColor":
+	{
+		"r": 10,
+		"g": 1.5894420146942139,
+		"b": 0,
+		"a": 1
+	},
+	"winterPlantWiltColor":
+	{
+		"r": 1,
+		"g": 0.25732800364494324,
+		"b": 0,
+		"a": 0
+	},
+	"winterGrassWitheredColor":
+	{
+		"r": 3,
+		"g": 2.019474983215332,
+		"b": 0.95270800590515137,
+		"a": 0
+	},
+	"seasonalColorRandomness": 0.070000000000000007,
+	"windSpeed": 1,
+	"windStrength": 1,
+	"vegetationWindSwayingHeight": 1,
+	"windDirectionValue": 0,
+	"climateWindStrength": 1,
+	"sceneSky": true,
+	"skylightIntensity": 2,
+	"daytime_Cubemap": "TextureCube'/OpenZIAPI/DynamicWeather/A_property_collect/Master_material/M_window/Texture/cubemap_1.cubemap_1'",
+	"day_SkylightIntensity": 1,
+	"night_Cubemap": "TextureCube'/OpenZIAPI/DynamicWeather/A_property_collect/Master_material/M_window/Texture/daylight3.daylight3'",
+	"night_SkylightIntensity": 5,
+	"rayleigh_Exponential": 8,
+	"method": "BM_SOG",
+	"intensity": 0.15000000596046448,
+	"threshold": -1,
+	"metering_Mode": "AEM_Histogram",
+	"exposure_Compensation": 1,
+	"intensity_0": 0,
+	"start_Offset": 0,
+	"shutter_Speed": 60,
+	"iSO": 100,
+	"aperture": 4,
+	"maximum_Aperture": 1.2000000476837158,
+	"number_Of_Diaphragm_Blades": 5,
+	"contrast_Scale": 1,
+	"detail_Strength": 1,
+	"blurred_Luminance_Blend": 0.60000002384185791,
+	"blurred_Luminance_Kernel_Size_Percent": 50,
+	"middle_Grey_Bias": 0,
+	"intensity_1": 1,
+	"tint":
+	{
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 1
+	},
+	"bokeh_Size": 3,
+	"threshold_0": 8,
+	"bokeh_Shape": "None",
+	"vignette_Intensity": 0.40000000596046448,
+	"temperature_Type": "TEMP_WhiteBalance",
+	"temp": 6500,
+	"tint_0": 0,
+	"saturation":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1.2
+	},
+	"contrast":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gamma":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gain":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"offset":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0,
+		"w": 0
+	},
+	"saturation_0":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"contrast_0":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gamma_0":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gain_0":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"offset_0":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0,
+		"w": 0
+	},
+	"saturation_1":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"contrast_1":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gamma_1":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gain_1":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"offset_1":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0,
+		"w": 0
+	},
+	"saturation_2":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"contrast_2":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gamma_2":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"gain_2":
+	{
+		"x": 1,
+		"y": 1,
+		"z": 1,
+		"w": 1
+	},
+	"offset_2":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0,
+		"w": 0
+	},
+	"highlights_Min": 0.5,
+	"highlights_Max": 1,
+	"shadows_Max": 0.090000003576278687,
+	"method_0": "Lumen",
+	"indirect_Lighting_Color":
+	{
+		"r": 1,
+		"g": 1,
+		"b": 1,
+		"a": 1
+	},
+	"indirect_Lighting_Intensity": 1,
+	"slope": 0.87999999523162842,
+	"toe": 0.55000001192092896,
+	"shoulder": 0.25999999046325684,
+	"black_Clip": 0,
+	"white_Clip": 0.039999999105930328,
+	"method_1": "Lumen",
+	"quality": 1,
+	"ray_Lighting_Mode": "Default",
+	"intensity_2": 100,
+	"quality_0": 50,
+	"max_Roughness": 0.60000002384185791,
+	"rayleigh_scattering":
+	{
+		"r": 0.032340999692678452,
+		"g": 0.094001002609729767,
+		"b": 0.171875,
+		"a": 0
+	},
+	"bNetTemporary": false,
+	"bNetStartup": false,
+	"bHidden": false,
+	"bTearOff": false,
+	"bForceNetAddressable": false,
+	"bIsInEditingLevelInstance": false,
+	"bExchangedRoles": true,
+	"bNetLoadOnClient": true,
+	"bRelevantForNetworkReplays": true,
+	"bRelevantForLevelBounds": true,
+	"bAutoDestroyWhenFinished": false,
+	"bCanBeDamaged": true,
+	"bCollideWhenPlacing": false,
+	"bFindCameraComponentWhenViewTarget": true,
+	"bGenerateOverlapEventsDuringLevelStreaming": false,
+	"bIgnoresOriginShifting": false,
+	"bEnableAutoLODGeneration": true,
+	"bIsEditorOnlyActor": false,
+	"bActorSeamlessTraveled": false,
+	"bCanBeInCluster": false,
+	"bAllowReceiveTickEventOnDedicatedServer": true,
+	"bActorEnableCollision": true,
+	"bActorIsBeingDestroyed": false,
+	"updateOverlapsMethodDuringLevelStreaming": "UseConfigDefault",
+	"defaultUpdateOverlapsMethodDuringLevelStreaming": "OnlyUpdateMovable",
+	"remoteRole": "ROLE_None",
+	"initialLifeSpan": 0,
+	"customTimeDilation": 1,
+	"gridPlacement": "None",
+	"runtimeGrid": "None",
+	"attachmentReplication":
+	{
+		"attachParent": "None",
+		"locationOffset":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"relativeScale3D":
+		{
+			"x": 0,
+			"y": 0,
+			"z": 0
+		},
+		"rotationOffset":
+		{
+			"pitch": 0,
+			"yaw": 0,
+			"roll": 0
+		},
+		"attachSocket": "None"
+	},
+	"owner": "None",
+	"netDriverName": "GameNetDriver",
+	"role": "ROLE_Authority",
+	"spawnCollisionHandlingMethod": "AlwaysSpawn",
+	"autoReceiveInput": "Disabled",
+	"inputPriority": 0,
+	"netTag": 0,
+	"instigator": "None",
+	"children": [],
+	"pivotOffset":
+	{
+		"x": 0,
+		"y": 0,
+		"z": 0
+	},
+	"hLODLayer": "None",
+	"rayTracingGroupId": -1,
+	"layers": [],
+	"parentComponentActor": "None",
+	"actorGuid": "5B35CDF249FAE81228451081009BB719",
+	"dataLayers": [],
+	"groupActor": "None",
+	"spriteScale": 1,
+	"hiddenEditorViews": 0,
+	"actorLabel": "BP_DynamicSKY",
+	"folderPath": "None",
+	"folderGuid": "00000000000000000000000000000000",
+	"bHiddenEd": false,
+	"bIsEditorPreviewActor": false,
+	"bHiddenEdLayer": false,
+	"bHiddenEdLevel": false,
+	"bLockLocation": false,
+	"bActorLabelEditable": true,
+	"bEditable": true,
+	"bListedInSceneOutliner": true,
+	"bCanPlayFromHere": false,
+	"bIsSpatiallyLoaded": true,
+	"bHiddenEdTemporary": false,
+	"bForceExternalActorLevelReferenceForPIE": false,
+	"tags": [],
+	"instanceComponents": [],
+	"blueprintCreatedComponents": [
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None",
+		"None"
+	]
+}
