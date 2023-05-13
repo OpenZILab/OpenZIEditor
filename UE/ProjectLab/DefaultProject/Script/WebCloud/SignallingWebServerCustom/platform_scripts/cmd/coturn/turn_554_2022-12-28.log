@@ -1,0 +1,136 @@
+0: : log file opened: turn_554_2022-12-28.log
+0: : ERROR: -X : Wrong address format: -E
+0: : Listener address to use: 10.0.0.13
+0: : 
+RFC 3489/5389/5766/5780/6062/6156 STUN/TURN Server
+Version Coturn-4.5.2 'dan Eider'
+0: : 
+Max number of open files/sockets allowed for this process: 3200
+0: : 
+Due to the open files/sockets limitation,
+max supported number of TURN Sessions possible is: 1000 (approximately)
+0: : 
+
+==== Show him the instruments, Practical Frost: ====
+
+0: : TLS supported
+0: : DTLS supported
+0: : DTLS 1.2 supported
+0: : TURN/STUN ALPN supported
+0: : Third-party authorization (oAuth) supported
+0: : GCM (AEAD) supported
+0: : OpenSSL compile-time version: OpenSSL 1.1.1f  31 Mar 2020 (0x1010106f)
+0: : 
+0: : SQLite is not supported
+0: : Redis is not supported
+0: : PostgreSQL is not supported
+0: : MySQL is not supported
+0: : MongoDB is not supported
+0: : 
+0: : Default Net Engine version: 2 (UDP thread per network endpoint)
+
+=====================================================
+
+0: : Domain name: 
+0: : Default realm: PixelStreaming
+0: : ERROR: 
+CONFIGURATION ALERT: Unknown argument: 10.0.0.13
+0: : Relay address to use: 10.0.0.13
+0: : Cannot create pid file: C:\coturn.pid
+0: : pid file created: turnserver.pid
+0: : IO method (main listener thread): poll
+0: : IPv4: On this platform, I am using alternative behavior of TTL according to RFC 5766.
+0: : IPv6: On this platform, I am using alternative behavior of TTL (HOPLIMIT) according to RFC 6156.
+0: : IPv4: On this platform, I am using alternative behavior of TOS according to RFC 5766.
+0: : WARNING: I cannot support STUN CHANGE_REQUEST functionality because only one IP address is provided
+0: : Wait for relay ports initialization...
+0: :   relay 10.0.0.13 initialization...
+0: :   relay 10.0.0.13 initialization done
+0: : Relay ports initialization done
+0: : IO method (general relay thread): poll
+0: : turn server id=0 created
+0: : IO method (general relay thread): poll
+0: : turn server id=1 created
+0: : IO method (general relay thread): poll
+0: : turn server id=2 created
+0: : IO method (general relay thread): poll
+0: : turn server id=3 created
+0: : IO method (general relay thread): poll
+0: : turn server id=4 created
+0: : IO method (general relay thread): poll
+0: : turn server id=5 created
+0: : IO method (general relay thread): poll
+0: : turn server id=6 created
+0: : IO method (general relay thread): poll
+0: : turn server id=7 created
+0: : IO method (general relay thread): poll
+0: : turn server id=8 created
+0: : IO method (general relay thread): poll
+0: : turn server id=9 created
+0: : IO method (general relay thread): poll
+0: : turn server id=10 created
+0: : IO method (general relay thread): poll
+0: : turn server id=11 created
+0: : IO method (general relay thread): poll
+0: : turn server id=12 created
+0: : IO method (general relay thread): poll
+0: : turn server id=13 created
+0: : IO method (general relay thread): poll
+0: : turn server id=14 created
+0: : IO method (general relay thread): poll
+0: : turn server id=15 created
+0: : IO method (general relay thread): poll
+0: : turn server id=16 created
+0: : IO method (general relay thread): poll
+0: : turn server id=17 created
+0: : IO method (general relay thread): poll
+0: : turn server id=18 created
+0: : IO method (general relay thread): poll
+0: : turn server id=19 created
+0: : IO method (general relay thread): poll
+0: : turn server id=20 created
+0: : IO method (general relay thread): poll
+0: : turn server id=21 created
+0: : IO method (general relay thread): poll
+0: : turn server id=22 created
+0: : IO method (general relay thread): poll
+0: : turn server id=23 created
+0: : IO method (general relay thread): poll
+0: : turn server id=24 created
+0: : IO method (general relay thread): poll
+0: : turn server id=25 created
+0: : IO method (general relay thread): poll
+0: : turn server id=26 created
+0: : IO method (general relay thread): poll
+0: : turn server id=27 created
+0: : IO method (general relay thread): poll
+0: : turn server id=28 created
+0: : IO method (general relay thread): poll
+0: : turn server id=29 created
+0: : IO method (general relay thread): poll
+0: : turn server id=30 created
+0: : IO method (general relay thread): poll
+0: : IO method (udp listener/relay thread): poll
+0: : turn server id=31 created
+0: : turn server id=128 created
+0: : IPv4. UDP listener opened on: 10.0.0.13:19303
+0: : IPv4. TCP listener opened on : 10.0.0.13:19303
+0: : Total UDP servers: 1
+0: : Total General servers: 32
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (auth thread): poll
+0: : IO method (admin thread): poll

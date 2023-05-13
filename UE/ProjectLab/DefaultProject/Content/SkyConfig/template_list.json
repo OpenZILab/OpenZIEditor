@@ -1,0 +1,167 @@
+{
+  "template_list": [
+    {
+      "category": "万里无云",
+      "templates": [
+        {
+          "displayName": "地表无云_1",
+          "fileName": "surface_nocloud_1"
+        }
+      ]
+    },
+    {
+      "category": "晴天",
+      "templates": [
+        {
+          "displayName": "地表晴天_1",
+          "fileName": "surface_sunny_1"
+        },
+        {
+          "displayName": "地表晴天_2",
+          "fileName": "surface_sunny_2"
+        },
+        {
+          "displayName": "地表晴天_3",
+          "fileName": "surface_sunny_3"
+        },
+        {
+          "displayName": "大气晴天_1",
+          "fileName": "atmosphere_sunny_1"
+        },
+        {
+          "displayName": "地球晴天_1",
+          "fileName": "earth_sunny_1"
+        }
+      ]
+    },
+    {
+      "category": "多云",
+      "templates": [
+        {
+          "displayName": "地表多云_1",
+          "fileName": "surface_cloudy_1"
+        }
+      ]
+    },
+    {
+      "category": "阴天",
+      "templates": [
+        {
+          "displayName": "地表阴天_1",
+          "fileName": "surface_overcast_1"
+        },
+        {
+          "displayName": "地表阴天_2",
+          "fileName": "surface_overcast_2"
+        },
+        {
+          "displayName": "地表阴天_3",
+          "fileName": "surface_overcast_3"
+        },
+        {
+          "displayName": "大气阴天_1",
+          "fileName": "atmosphere_overcast_1"
+        },
+        {
+          "displayName": "地球阴天_1",
+          "fileName": "earth_overcast_1"
+        }
+      ]
+    },
+    {
+      "category": "雾天",
+      "templates": [
+        {
+          "displayName": "地表雾天_1",
+          "fileName": "surface_fog_1"
+        }
+      ]
+    },
+    {
+      "category": "小雨",
+      "templates": [
+        {
+          "displayName": "地表小雨_1",
+          "fileName": "surface_lightRain_1"
+        }
+      ]
+    },
+    {
+      "category": "中雨",
+      "templates": [
+        {
+          "displayName": "地表中雨_1",
+          "fileName": "surface_moderateRain_1"
+        },
+        {
+          "displayName": "地表中雨_2",
+          "fileName": "surface_moderateRain_2"
+        },
+        {
+          "displayName": "地表中雨_3",
+          "fileName": "surface_moderateRain_3"
+        },
+        {
+          "displayName": "大气中雨_1",
+          "fileName": "atmosphere_moderateRain_1"
+        },
+        {
+          "displayName": "地球中雨_1",
+          "fileName": "earth_moderateRain_1"
+        }
+      ]
+    },
+    {
+      "category": "大雨",
+      "templates": [
+        {
+          "displayName": "地表大雨_1",
+          "fileName": "surface_heavyRain_1"
+        }
+      ]
+    },
+    {
+      "category": "小雪",
+      "templates": [
+        {
+          "displayName": "地表小雪_1",
+          "fileName": "surface_lightSnow_1"
+        }
+      ]
+    },
+    {
+      "category": "中雪",
+      "templates": [
+        {
+          "displayName": "地表中雪_1",
+          "fileName": "surface_moderateSnow_1"
+        },
+        {
+          "displayName": "地表中雪_2",
+          "fileName": "surface_moderateSnow_2"
+        },
+        {
+          "displayName": "地表中雪_3",
+          "fileName": "surface_moderateSnow_3"
+        },
+        {
+          "displayName": "大气中雪_1",
+          "fileName": "atmosphere_moderateSnow_1"
+        },
+        {
+          "displayName": "地球中雪_1",
+          "fileName": "earth_moderateSnow_1"
+        }
+      ]
+    },
+    {
+      "category": "大雪",
+      "templates": [
+        {
+          "displayName": "地表大雪_1",
+          "fileName": "surface_heavySnow_1"
+        }
+      ]
+    }
+  ]
+}

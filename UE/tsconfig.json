@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "Node",
+    "jsx": "react",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "typeRoots": [
+      "Plugins/Puerts/Typing",
+      "./node_modules/@types"
+    ],
+    "outDir": "Content/JavaScript"
+  },
+  "include": [
+    "TSProject/**/*"
+  ],
+  "exclude": [
+    "**/*.d.ts"
+  ]
+}
+
+
