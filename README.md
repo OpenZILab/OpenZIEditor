@@ -14,9 +14,13 @@ The license for now if you need to use our product in Non-commercial the you can
 
 下方二维码：
 
-企业微信交流群  ||   微信公众号  ||  企业视频号  ||  企业微信客服
+企业微信交流群
 
-<img src="./Docs/wecom.png" alt="Logo" style="zoom:50%;" /><img src="./Docs/wechat.jpg" alt="Logo" style="zoom:46.1%;" /><img src="./Docs/wevideo.jpg" alt="Logo" style="zoom:46%;" /><img src="./Docs/weconnect.jpg" alt="Logo" style="zoom:31.5%;" />
+<img src=".\Docs\wecom.png" alt="Logo" style="zoom:100%;" />
+
+微信公众号：
+
+<img src="./Docs/wechat.jpg" alt="Logo" style="zoom:100%;" />
 
 产品相关授权内容：
 
